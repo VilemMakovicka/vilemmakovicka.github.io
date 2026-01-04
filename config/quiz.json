@@ -1,12 +1,18 @@
 {
     "question_file_names": [
-        "Kategorie_1.json"
+        "Algorithms_and_Programming.json",
+        "Artificial_intelligence.json",
+        "Computer_networks.json",
+        "Cybersecurity.json",
+        "Database_systems.json",
+        "Information_systems.json",
+        "SUIS.json"
     ],
-    "button_answer": "Show answer",
-    "button_check": "Check answer",
-    "button_next": "Next question",
-    "response_text_correct": "Correct!",
-    "response_text_wrong": "Wrong. Try again.",
-    "response_text_answer": "Correct answer: {{answer}}",
+    "button_answer": "Zobrazit správnou odpověď",
+    "button_check": "Zkontrolovat",
+    "button_next": "Další otázka",
+    "response_text_correct": "Správně!",
+    "response_text_wrong": "Špatně. Zkus to znovu.",
+    "response_text_answer": "Správná odpověď: {{answer}}",
     "show_categories": true
 }

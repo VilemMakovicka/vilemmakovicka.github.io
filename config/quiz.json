@@ -1,0 +1,12 @@
+{
+    "question_file_names": [
+        "Kategorie_1.json"
+    ],
+    "button_answer": "Show answer",
+    "button_check": "Check answer",
+    "button_next": "Next question",
+    "response_text_correct": "Correct!",
+    "response_text_wrong": "Wrong. Try again.",
+    "response_text_answer": "Correct answer: {{answer}}",
+    "show_categories": true
+}

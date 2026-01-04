@@ -1,0 +1,50 @@
+[
+    {
+        "answers": [
+            "Confidentiality"
+        ],
+        "text": "______ is ensuring that sensitive data is accessed only by authorized individuals or systems."
+    },
+    {
+        "answers": [
+            "Integrity"
+        ],
+        "text": "______ is ensuring data remains accurate, consistent, and unaltered during transmission or storage."
+    },
+    {
+        "answers": [
+            "Availability"
+        ],
+        "text": "______ is ensuring data and network resources are accessible to authorized users when needed."
+    },
+    {
+        "answers": [
+            "Denial of service, DoS", "Denial of service", "DoS"
+        ],
+        "text": "When a user cannot get access to the network or specific services provided on the network, they experience a _________"
+    },
+    {
+        "answers": [
+            "Authentication"
+        ],
+        "text": "_______ is proving that a user is whome he or she claims to be."
+    },
+    {
+        "answers": [
+            "Authorization"
+        ],
+        "text": "_______ is the act of determinig whether a particular user or computer system has the right to carry out a certain activity."
+    },
+    {
+        "answers": [
+            "Encryption"
+        ],
+        "text": "_______ is the act is the process of translating information from its original form into an encoded incomprehensible form."
+    },
+    {
+        "answers": [
+            "Decryption"
+        ],
+        "text": "_______ refers to the process of taking ciphertext and translating it back into plaintext"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "answers_correct": [
+            "Pragmatický"
+        ],
+        "answers_false": [
+            "Sémantický",
+            "Syntaktický"
+        ],
+        "text": "Který pohled na informaci řeší její význam pro příjemce?"
+    },
+    {
+        "answers": [
+            "Informační strategie",
+            "Informacni strategie"
+        ],
+        "text": "_______ je dokument průběžně teoreticky ověřovaný a modifikovaný, jehož úkolem je stálá integrace IS/ICT s globální strategií podniku."
+    }
+]

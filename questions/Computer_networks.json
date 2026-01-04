@@ -1,0 +1,32 @@
+[
+    {
+        "answers": [
+            "Communications protocol", "Protocol", "A Communications protocol"
+        ],
+        "text": "_________ is a set of rules for exchanging information over a network."
+    },
+    {
+        "answers": [
+            "Protocol stack", "stack"
+        ],
+        "text": "_________ is an implementation of a computer networking protocol suite or protocol family."
+    },
+    {
+        "answers": [
+            "LAN, Local area network", "LAN", "Local area network"
+        ],
+        "text": "_______ is a network that connects computers and devices in a limited geographical area such as home, school, etc..."
+    },
+    {
+        "answers": [
+            "WAN, Wide area network", "WAN", "Wide area network"
+        ],
+        "text": "_______ is a computer network that covers a large geographic area such as a city, country or spans even intercontinental distances."
+    },
+    {
+        "answers": [
+            "Internet"
+        ],
+        "text": "is a global system of interconnected governmental, academic, corporate, public and private computer networks."
+    }
+]

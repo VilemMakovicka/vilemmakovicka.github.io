@@ -1,0 +1,277 @@
+[
+    {
+        "answers": [
+            "objective",
+            "goal",
+            "purpose"
+        ],
+        "text": "An information system is a specialized system that collects, manipulates, and presents data and information to meet a given ________."
+    },
+    {
+        "answers": [
+            "procedures"
+        ],
+        "text": "A computer-based information system consists of hardware, software, databases, telecommunications, people, and ________."
+    },
+    {
+        "answers": [
+            "Hardware"
+        ],
+        "text": "_____ refers to the physical layer of the information system."
+    },
+    {
+        "answers": [
+            "Software"
+        ],
+        "text": "The element of IS that includes operating systems and application programs is called ________."
+    },
+    {
+        "answers": [
+            "Databases",
+            "Database"
+        ],
+        "text": "Organized collections of facts and information are called ________."
+    },
+    {
+        "answers": [
+            "Data analysis"
+        ],
+        "text": "_________ is used to organize data identified in previous phases to make it suitable for subsequent phases"
+    },
+    {
+        "answers": [
+            "Telecommunications",
+            "Telecommunication"
+        ],
+        "text": "________ enable the transmission of signals through computer networks."
+    },
+    {
+        "answers": [
+            "information systems",
+            "IS"
+        ],
+        "text": "Because people usually make the difference between success and failure, they are considered the most important element of ________."
+    },
+    {
+        "answers": [
+            "Procedures"
+        ],
+        "text": "Strategies, policies, methods, and rules for using an information system are defined as ________."
+    },
+    {
+        "answers": [
+            "System development",
+            "Systems development",
+            "Information systems development",
+            "IS development"
+        ],
+        "text": "The process of creating or modifying systems is called ________."
+    },
+    {
+        "answers": [
+            "Stakeholders"
+        ],
+        "text": "Individuals or subjects that ultimately benefit from information system development projects are called ________."
+    },
+    {
+        "answers": [
+            "Waterfall model",
+            "Waterfall"
+        ],
+        "text": "The oldest software paradigm, usually called the ________ model, has its phases arranged linearly in sequential order."
+    },
+    {
+        "answers": [
+            "Systems investigation",
+            "Investigation"
+        ],
+        "text": "The first phase of the traditional systems development life cycle is ________."
+    },
+    {
+        "answers": [
+            "Maintenance",
+            "Maintenance and review"
+        ],
+        "text": "The final phase of the systems development life cycle that involves checking, changing, and enhancing the system is called ________."
+    },
+    {
+        "answers": [
+            "Feasibility"
+        ],
+        "text": "A key step in the systems investigation phase that determines the probability of project success is called ________ analysis."
+    },
+    {
+        "answers": [
+            "Systems analysis",
+            "Analysis"
+        ],
+        "text": "The most critical phase of the systems development life cycle is ________."
+    },
+    {
+        "answers": [
+            "Systems analysis",
+            "System analysis"
+        ],
+        "text": "The ____________ stage focuses on business issues independent of any technology."
+    },
+    {
+        "answers": [
+            "logical",
+            "essential"
+        ],
+        "text": "The output of systems analysis is a ________ model of the system."
+    },
+    {
+        "answers": [
+            "Systems analysis",
+            "System analysis"
+        ],
+        "text": "__________ is a problem-solving technique decomposing a system into its component pieces for the purpose of analysis"
+    },
+    {
+        "answers": [
+            "processes"
+        ],
+        "text": "In structured analysis, systems are described in terms of inputs, outputs, data, and ________."
+    },
+    {
+        "answers": [
+            "stakeholders"
+        ],
+        "text": "The objective of requirement analysis is to reveal the requests of ________."
+    },
+    {
+        "answers": [
+            "Service"
+        ],
+        "text": "The PIECES framework classifies requirements into six categories: Performance, Information, Economy, Control, Efficiency, and ________."
+    },
+    {
+        "answers": [
+            "Data Flow Diagram",
+            "DFD"
+        ],
+        "text": "In structured analysis, the most commonly used process modeling tool is the ________."
+    },
+    {
+        "answers": [
+            "context"
+        ],
+        "text": "The highest-level data flow diagram showing system boundaries and major information flows is the ________ diagram."
+    },
+    {
+        "answers": [
+            "balancing"
+        ],
+        "text": "The process of maintaining consistency between inputs and outputs during decomposition of DFDs is called ________."
+    },
+    {
+        "answers": [
+            "data",
+            "information"
+        ],
+        "text": "In data modeling, the business needs to store ________ about entities (persons, places, events, etc...)"
+    },
+    {
+        "answers": [
+            "Identifiers",
+            "Primary keys",
+            "Primary key",
+            "Identifier"
+        ],
+        "text": "Attributes that can uniquely identify entities are known as ________."
+    },
+    {
+        "answers": [
+            "Relationships"
+        ],
+        "text": "Associations that exist between one or more entities are called ________."
+    },
+    {
+        "answers": [
+            "design"
+        ],
+        "text": "The activity that answers the question of how the system will solve identified problems and requirements is called system ________."
+    },
+    {
+        "answers": [
+            "implementation"
+        ],
+        "text": "The objective of the _______ phase is to physically put the system into operation"
+    },
+    {
+        "answers": [
+            "implementation"
+        ],
+        "text": "The two subphases of implementation are systems construction and systems ________."
+    },
+    {
+        "answers": [
+            "construction"
+        ],
+        "text": "The two subphases of implementation are systems ________ and systems implementation."
+    },
+    {
+        "answers": [
+            "Acceptance"
+        ],
+        "text": "Testing performed by users to verify that the system works as required is called ________ testing."
+    },
+    {
+        "answers": [
+            "Direct conversion"
+        ],
+        "text": "The start-up model where the old system is stopped and the new one immediately starts is known as ________"
+    },
+    {
+        "answers": [
+            "Phase-in approach"
+        ],
+        "text": "The start-up model which involves continuous replacement is known as ________"
+    },
+    {
+        "answers": [
+            "Pilot start-up"
+        ],
+        "text": "The start up model which is availbale only for one group of users is known as ________"
+    },
+    {
+        "answers": [
+            "Parallel start-up"
+        ],
+        "text": "Running both the old and new systems simultaneously for a period is called ________"
+    },
+    {
+        "answers": [
+            "maintenance"
+        ],
+        "text": "Changes in business processes, errors, new requests, or technical problems are common reasons for system ________."
+    },
+    {
+        "answers": [
+            "SDLC"
+        ],
+        "text": "The purpose of an _______ methodology is to clearly define activities, introduce consistency, and provide checkpoints for management."
+    },
+    {
+        "answers": [
+            "Entity Relationship",
+            "ERD",
+            "Entity Relationship Diagram"
+        ],
+        "text": "During systems analysis, a data model is represented by an ________ diagram."
+    },
+    {
+        "answers": [
+            "foreign"
+        ],
+        "text": "A primary key of another entity that is duplicated to identify a relationship is called a ________ key."
+    },
+    {
+        "answers": [
+            "computer-based information",
+            "information"
+        ],
+        "text": "People, hardware, software, data, procedures, and telecommunications together form a ________ system."
+    }
+]

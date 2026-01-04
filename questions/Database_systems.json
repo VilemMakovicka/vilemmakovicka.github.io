@@ -1,0 +1,222 @@
+[
+    {
+        "answers": [
+            "Database"
+        ],
+        "text": "________ is a collection of logically related data and metadata"
+    },
+    {
+        "answers": [
+            "Database management system, DBMS",
+            "Database management system",
+            "DBMS"
+        ],
+        "text": "_____________ is a software package that is used for managing a database and for controlling access to the data"
+    },
+    {
+        "answers": [
+            "Integrity"
+        ],
+        "text": "_____________ is the state when the data does not violate constraints (For example, the month should be between 1 and 12)"
+    },
+    {
+        "answers": [
+            "Shareability"
+        ],
+        "text": "_____________ is the ability to provide data to many users and applications"
+    },
+    {
+        "answers": [
+            "Structured Query Language, SQL",
+            "Structured Query Language",
+            "SQL"
+        ],
+        "text": "_____________ is a form of query language that is designed to retrieve, manipulate and make ad-hoc analysis of data"
+    },
+    {
+        "answers": [
+            "Data Definition language, DDL",
+            "Data Definition Language",
+            "DDL"
+        ],
+        "text": "_____________ is a language for defining or declaring of database objects together with integrity and security constraints"
+    },
+    {
+        "answers": [
+            "Data Manipulation Language, DML",
+            "Data Manipulation Language",
+            "DML"
+        ],
+        "text": "_____________ is a language for supporting basic data manipulations, such as data retrieving, adding, deleting and modifying"
+    },
+    {
+        "answers": [
+            "Data Control Language, DCL",
+            "Data Control Language",
+            "DCL"
+        ],
+        "text": "_____________ is a language used to control who or what has access to specific objects in the database"
+    },
+    {
+        "answers": [
+            "Transaction Control Language, TCL",
+            "Transaction Control Language",
+            "TCL"
+        ],
+        "text": "_____________ is a language used to control database transactions"
+    },
+    {
+        "answers": [
+            "Data management",
+            "Management"
+        ],
+        "text": "_____________ is a discipline that focuses on the generation, storage and retrieval of data"
+    },
+    {
+        "answers": [
+            "Table, File",
+            "Table",
+            "File"
+        ],
+        "text": "_____________ is a collection of related records"
+    },
+    {
+        "answers": [
+            "Record"
+        ],
+        "text": "_____________ is a logically connected set of one or more data fields that describe an entity"
+    },
+    {
+        "answers": [
+            "Information"
+        ],
+        "text": "_____________ is the result of processing, organizing or summarizing raw data to reveal its meaning"
+    },
+    {
+        "answers": [
+            "Data"
+        ],
+        "text": "_____________ are raw and isolated facts that have not been processed to reveal their meaning"
+    },
+    {
+        "answers": [
+            "Database transaction",
+            "Transaction"
+        ],
+        "text": "_____________ is a logical unit of work"
+    },
+    {
+        "answers": [
+            "Commit"
+        ],
+        "text": "To make all changes from a transaction permanent, an operation called _______ must be executed"
+    },
+    {
+        "answers": [
+            "Rollback"
+        ],
+        "text": "To leave the database in its original state when using transactions, operation called _________ must be executed"
+    },
+    {
+        "answers": [
+            "Single user database",
+            "Single user"
+        ],
+        "text": "_______ database is a database which only one user can access at a time"
+    },
+    {
+        "answers": [
+            "Multiuser database",
+            "Multiple user database",
+            "Multiuser",
+            "Multiple user"
+        ],
+        "text": "_______ database is a database which multiple/many users can access at a time"
+    },
+    {
+        "answers": [
+            "Centralized database",
+            "Centralized"
+        ],
+        "text": "_______ database is a database that is located at a single site"
+    },
+    {
+        "answers": [
+            "Decentralized database",
+            "Decentralized"
+        ],
+        "text": "_______ database is a database where data is distributed across several different sites"
+    },
+    {
+        "answers": [
+            "Transactional database",
+            "Transactional",
+            "Operational database",
+            "Operational"
+        ],
+        "text": "_______ database is a database which is used for supporting day-to-day operations"
+    },
+    {
+        "answers": [
+            "Data warehouse"
+        ],
+        "text": "_______ is a database containing historical data collected from transactional systems, transformed, cleaned and ready for analysis"
+    },
+    {
+        "answers": [
+            "<image style='width:500px;' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FRI4kgygf4U8%2Fhqdefault.jpg%3Fsqp%3D-oaymwEmCOADEOgC8quKqQMa8AEB-AGSAoACjgKKAgwIABABGGUgZShlMA8%3D%26rs%3DAOn4CLDfjCAtULzY7bFLpd_zAD9EBzGCMA&f=1&nofb=1&ipt=75e9e494350ba992acb196340f2a493d4bd43bdf11e7e744f249d5cdb62aa97f'>"
+        ],
+        "text": "<image style='width:500px;' src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F2c%2Fe5%2F43%2F2ce5436f463edfbb9b37df2bd45b32e5.jpg&f=1&nofb=1&ipt=8e7c8231ec08437be5a7105d10f14ec2881700c3dd092a46df0a3fa9fda913e6'>"
+    },
+    {
+        "answers": [
+            "Primary key"
+        ],
+        "text": "______ is a field or combination of fields that uniquely and minimally identifies a particular entity"
+    },
+    {
+        "answers": [
+            "Constraint"
+        ],
+        "text": "______ is a restriction placed on data, usually in the form of rules"
+    },
+    {
+        "answers": [
+            "Relationship"
+        ],
+        "text": "______ is the association or the way different entities relate to each other"
+    },
+    {
+        "answers": [
+            "Attribute"
+        ],
+        "text": "______ is a descriptive property or characteristic of an entity"
+    },
+    {
+        "answers": [
+            "Entity"
+        ],
+        "text": "______ is an object that can be distinguished from others and about which information is stored"
+    },
+    {
+        "answers": [
+            "Data redundancy",
+            "Redundancy"
+        ],
+        "text": "______ exists when the same data are unnecessarily stored in different places"
+    },
+    {
+        "answers": [
+            "Data consistency",
+            "Consistency"
+        ],
+        "text": "The oposite of ______ exists when different versions of the same data appear in different places"
+    },
+    {
+        "answers": [
+            "Business scalability",
+            "Scalability"
+        ],
+        "text": "_______ is the ability to be expanded, modified or downsized easily according to the current business needs"
+    }
+]

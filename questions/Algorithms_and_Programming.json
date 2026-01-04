@@ -1,0 +1,153 @@
+[
+	{
+		"answers": [
+			"Dynamic variables",
+			"Dynamic"
+		],
+		"text": "_______ variables are variables created in runtime and are accessible via pointers"
+	},
+	{
+		"answers": [
+			"Algorithm",
+			"An algorithm"
+		],
+		"text": "A sequence of instructions describing a solution for a given problem is called _______"
+	},
+	{
+		"answers": [
+			"Universal"
+		],
+		"text": "_______ algorithms can be applied to every instance of a problem"
+	},
+	{
+		"answers": [
+			"Resultant"
+		],
+		"text": "_______ algorithms are always finite, always give a result"
+	},
+	{
+		"answers": [
+			"Deterministic"
+		],
+		"text": "_______ algorithms are unambiguous in every moment, the algorithm consists of clearly given steps in a given order"
+	},
+	{
+		"answers": [
+			"Repeatable"
+		],
+		"text": "Algorithms that always return the same output given the same input are ________"
+	},
+	{
+		"answers": [
+			"Comprehensible"
+		],
+		"text": "_________ algorithms are transparent (easily understandable), easily modifiable"
+	},
+	{
+		"answers": [
+			"An Array",
+			"Array"
+		],
+		"text": "_________ is a structured data type"
+	},
+	{
+		"answers": [
+			"Structured"
+		],
+		"text": "An Array is a _______ data type"
+	},
+	{
+		"answers": [
+			"Multidimensional"
+		],
+		"text": "An Array of array is called ________ array"
+	},
+	{
+		"answers": [
+			"Multidimensional"
+		],
+		"text": "An Array of array is called ________ array"
+	},
+	{
+		"answers": [
+			"Conditional"
+		],
+		"text": "______ loop repeats a piece of code an unknown number of times"
+	},
+	{
+		"answers": [
+			"For"
+		],
+		"text": "______ loop repeats a piece of code a given number of times"
+	},
+	{
+		"answers": [
+			"Subroutine"
+		],
+		"text": "A ______ is an independent set of statements that can be called in several places in a computer program"
+	},
+	{
+		"answers": [
+			"Reusability"
+		],
+		"text": "The property of subroutines called ______ allows it to be used many times"
+	},
+	{
+		"answers": [
+			"Functions"
+		],
+		"text": "_________ and procedures are types of subroutines"
+	},
+	{
+		"answers": [
+			"Procedures"
+		],
+		"text": "Functions and _________ are types of subroutines"
+	},
+	{
+		"answers": [
+			"Function",
+			"Functions",
+			"A Function"
+		],
+		"text": "_______ always returns a value"
+	},
+	{
+		"answers": [
+			"Procedure",
+			"Procedures",
+			"A Procedure"
+		],
+		"text": "_______ doesn't return a value"
+	},
+	{
+		"answers": [
+			"Comment",
+			"Comments",
+			"A Comment"
+		],
+		"text": "_______ explains the purpose of code"
+	},
+	{
+		"answers": [
+			"Library, Module",
+			"Library",
+			"Module"
+		],
+		"text": "_______ is a collection of resources"
+	},
+	{
+		"answers": [
+			"Interpreted code",
+			"Interpreted"
+		],
+		"text": "Code executed without converting it into a machine code is called _______ code"
+	},
+	{
+		"answers": [
+			"Compiled code",
+			"Compiled"
+		],
+		"text": "Code executed by translating it into an executable is called _______ code"
+	}
+]

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Skola]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Skola</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 06 Jan 2026 20:58:45 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 06 Jan 2026 20:58:45 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[<a data-tooltip-position="top" aria-label="https://netacad.borec.cz/predmety/pos/cviceni/FormD%20SRWE%20Practice%20PT%20Skills%20Assessment%20(PTSA)%20-%20Part%201.pka" rel="noopener nofollow" class="external-link" href="https://netacad.borec.cz/predmety/pos/cviceni/FormD%20SRWE%20Practice%20PT%20Skills%20Assessment%20(PTSA)%20-%20Part%201.pka" target="_blank">Packet tracer skills assessment - Part 1</a>]]></title><description><![CDATA[ 
- <br><br><br>Enable secret password<br>Router(config)# hostname &lt;hostname&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Skola]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Skola</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 06 Jan 2026 22:35:52 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 06 Jan 2026 22:35:52 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[<a data-tooltip-position="top" aria-label="https://netacad.borec.cz/predmety/pos/cviceni/FormD%20SRWE%20Practice%20PT%20Skills%20Assessment%20(PTSA)%20-%20Part%201.pka" rel="noopener nofollow" class="external-link" href="https://netacad.borec.cz/predmety/pos/cviceni/FormD%20SRWE%20Practice%20PT%20Skills%20Assessment%20(PTSA)%20-%20Part%201.pka" target="_blank">Packet tracer skills assessment - Part 1</a>]]></title><description><![CDATA[ 
+ <br><br><br>Configurate hostname<br>Router(config)# hostname &lt;hostname&gt;
 <br>Enable secret password<br>Router(config)# enable secret &lt;password&gt;
 <br>Configure a console password<br>Router(config)# line console 0
 Router(config-line)# password &lt;password&gt;
@@ -73,4 +73,21 @@ Router(config-subif)#description &lt;description&gt;
 Router(config-subif)#encapsulation dot1q &lt;vlan number&gt;
 Router(config-subif)#ip address &lt;ip address&gt; &lt;mask&gt;
 Router(config-subif)#exit
-]]></description><link>S3/PSPS/New.html</link><guid isPermaLink="false">S3/PSPS/New.md</guid><pubDate>Tue, 06 Jan 2026 20:26:13 GMT</pubDate></item></channel></rss>
+]]></description><link>S3/PSPS/New.html</link><guid isPermaLink="false">S3/PSPS/New.md</guid><pubDate>Tue, 06 Jan 2026 22:34:45 GMT</pubDate></item><item><title><![CDATA[pkt-test2]]></title><description><![CDATA[ 
+ <br>SLAAC<br>Router(Config)# ipv6 unicast-routing
+Router(Config)# interface &lt;interface&gt;
+Router(Config-if)# ipv6 address &lt;ipv6 address&gt;/&lt;prefix&gt;
+Router(Config-if)# no ipv6 nd ra suppress
+Router(Config-if)# no shutdown
+<br>Stateless<br>Router(Config)# interface &lt;interface&gt;
+Router(config-if)#ipv6 nd other-config-flag
+Router(config-if)#ipv6 dhcp server &lt;pool name&gt;
+Router(config-if)#exit
+Router(config)#ipv6 dhcp pool &lt;pool name&gt;
+Router(config-dhcpv6)#dns-server &lt;dns ipv6 address&gt;
+Router(config-dhcpv6)#domain-name &lt;domain&gt;
+<br>Stateless DHCPv6<br>Router(Config)# interface &lt;interface&gt;
+Router(config-if)# ipv6 nd other-config-flag
+<br>Stateful DHCPv6<br>Router(Config)# interface &lt;interface&gt;
+Router(config-if)# ipv6 nd managed-config-flag
+]]></description><link>S3/PSPS/pkt-test2.html</link><guid isPermaLink="false">S3/PSPS/pkt-test2.md</guid><pubDate>Tue, 06 Jan 2026 22:09:39 GMT</pubDate></item></channel></rss>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Skola]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>Skola</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 06 Jan 2026 20:58:45 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 06 Jan 2026 20:58:45 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[<a data-tooltip-position="top" aria-label="https://netacad.borec.cz/predmety/pos/cviceni/FormD%20SRWE%20Practice%20PT%20Skills%20Assessment%20(PTSA)%20-%20Part%201.pka" rel="noopener nofollow" class="external-link" href="https://netacad.borec.cz/predmety/pos/cviceni/FormD%20SRWE%20Practice%20PT%20Skills%20Assessment%20(PTSA)%20-%20Part%201.pka" target="_blank">Packet tracer skills assessment - Part 1</a>]]></title><description><![CDATA[ 
+ <br><br><br>Enable secret password<br>Router(config)# hostname &lt;hostname&gt;
+<br>Enable secret password<br>Router(config)# enable secret &lt;password&gt;
+<br>Configure a console password<br>Router(config)# line console 0
+Router(config-line)# password &lt;password&gt;
+Router(config-line)# login
+Router(config-line)# exit
+<br>Configure remote access to VTY lines<br>Router(config)# line vty 0 4
+Router(config-line)# password &lt;password&gt;
+Router(config-line)# login
+Router(config-line)# exit
+<br>Configure a Banner MOTD message<br>Router(config)# banner motd #&lt;message&gt;#
+<br>Encrypt all clear-text passwords<br>Router(config)# service password-encryption
+<br>Basic interface configuration<br>Router(config)#interface &lt;interface&gt;
+Router(config-if)#ip address &lt;ip address&gt; &lt;mask&gt;
+Router(config-if)#description &lt;description&gt;
+<br><br>Configure SVI<br>Switch(config)# interface vlan &lt;SVI number&gt;
+Switch(config-if)# ip address &lt;ip address&gt; &lt;mask&gt;
+Switch(config-if)# no shutdown
+Switch(config-if)# exit
+<br>Configure default gateway<br>Switch(config)# ip default-gateway &lt;ip address&gt;
+<br>Configure SSH<br>Switch(config)# ip domain-name &lt;ip domain name&gt;
+Switch(config)# crypto key generate rsa
+How many bits in the modulus [512]: 1024
+Switch(config)# username &lt;username&gt; privilege 15 secret &lt;password&gt;
+Switch(config)# ip ssh version 2
+Switch(config)# line vty 0 15
+Switch(config-line)# login local
+Switch(config-line)# transport input ssh
+Switch(config-line)# exit
+<br><br>Create VLAN<br>Switch(config)# vlan &lt;vlan number&gt;
+Switch(config-vlan)# name &lt;vlan name&gt;
+Switch(config-vlan)# exit
+<br>Configure VLAN<br>Switch(config)# interface vlan &lt;SVI number&gt;
+Switch(config-if)# ip address &lt;ip address&gt; &lt;mask&gt;
+Switch(config-if)# no shutdown
+Switch(config-if)# exit
+<br>Assign port to a VLAN<br>Switch(config)# interface &lt;interface&gt;
+Switch(config-if)# switchport mode access
+Switch(config-if)# switchport access vlan &lt;vlan number&gt;
+Switch(config-if)# exit
+<br>Assign multiple ports to a VLAN<br>Switch(config)# interface range &lt;interface range&gt;
+# example: interface range f0/7-10
+Switch(config-if-range)# switchport mode access
+Switch(config-if-range)# switchport access vlan &lt;vlan number&gt;
+Switch(config-if-range)# exit
+<br><br>Configure EtherChannel<br>Switch(config)#interface range &lt;interface range&gt;
+# example: interface range f0/7-10
+Switch(config-if-range)#channel-group &lt;channel-group number&gt; mode active
+Switch(config-if-range)#exit
+<br>Configure Trunking on EtherChannels<br>L3-Switch(config)#interface port-channel &lt;channel-group number&gt;
+L3-Switch(config-if)#switchport mode trunk
+L3-Switch(config-if)#switchport trunk allowed vlan &lt;vlan number&gt;, etc...
+L3-Switch(config-if)#exit
+<br>Switch(config)#interface port-channel &lt;channel-group number&gt;
+Switch(config-if)#switchport mode trunk 
+Switch(config-if)#switchport nonegotiate
+Switch(config-if)#exit
+<br>Configure a static trunk uplink<br>Switch(config)#interface &lt;interface&gt;
+Switch(config-if)#switchport mode trunk
+Switch(config-if)#switchport nonegotiate
+Switch(config-if)#switchport trunk native vlan &lt;vlan number&gt;
+Switch(config-if)#switchport trunk allowed vlan &lt;vlan number&gt;, etc...
+Switch(config-if)#exit
+<br><br>Configure inter-VLAN routing on the L3 switch<br>L3-Switch(config)#ip routing
+L3-Switch(config)#interface &lt;interface&gt;
+L3-Switch(config-if)#no switchport
+L3-Switch(config-if)#ip address &lt;ip address&gt; &lt;mask&gt;
+<br>Configure router-on-a-stick inter-VLAN routing on a router<br>Router(config)#interface &lt;interface&gt;
+Router(config-if)#no shutdown 
+<br>+<br>Router(config)#interface &lt;interface&gt;.&lt;vlan number&gt;
+Router(config-subif)#description &lt;description&gt;
+Router(config-subif)#encapsulation dot1q &lt;vlan number&gt;
+Router(config-subif)#ip address &lt;ip address&gt; &lt;mask&gt;
+Router(config-subif)#exit
+]]></description><link>S3/PSPS/New.html</link><guid isPermaLink="false">S3/PSPS/New.md</guid><pubDate>Tue, 06 Jan 2026 20:26:13 GMT</pubDate></item></channel></rss>

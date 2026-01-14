@@ -1,45 +1,30 @@
 {
   "vaultName": "Skola",
-  "lastExport": 1767824624106,
+  "lastExport": 1768431672261,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark styled-scrollbars trim-cols h1-l h3-l",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
     "S3/psps/general notes.md",
-    "lib/fonts/94f2f163d4b698242fef.otf",
-    "lib/fonts/72505e6a122c6acd5471.woff2",
-    "lib/fonts/2d5198822ab091ce4305.woff2",
-    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
-    "lib/fonts/cb10ffd7684cd9836a05.woff2",
-    "lib/fonts/293fd13dbca5a3e450ef.woff2",
-    "lib/fonts/085cb93e613ba3d40d2b.woff2",
-    "lib/fonts/b5f0f109bc88052d4000.woff2",
-    "lib/fonts/cbe0ae49c52c920fd563.woff2",
-    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "S3/SUIS/SUIS cheatsheet.md",
     "lib/fonts/70cc7ff27245e82ad414.ttf",
     "lib/fonts/454577c22304619db035.ttf",
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/fonts/c504db5c06caaf7cdfba.woff2",
+    "lib/fonts/01dcbad1bac635f9c9cd.woff2",
     "lib/media/6155340132a851f6089e.svg"
   ],
   "mainDependencies": [
-    "lib/fonts/94f2f163d4b698242fef.otf",
-    "lib/fonts/72505e6a122c6acd5471.woff2",
-    "lib/fonts/2d5198822ab091ce4305.woff2",
-    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
-    "lib/fonts/cb10ffd7684cd9836a05.woff2",
-    "lib/fonts/293fd13dbca5a3e450ef.woff2",
-    "lib/fonts/085cb93e613ba3d40d2b.woff2",
-    "lib/fonts/b5f0f109bc88052d4000.woff2",
-    "lib/fonts/cbe0ae49c52c920fd563.woff2",
-    "lib/fonts/535a6cf662596b3bd6a6.woff2",
     "lib/fonts/70cc7ff27245e82ad414.ttf",
     "lib/fonts/454577c22304619db035.ttf",
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/fonts/c504db5c06caaf7cdfba.woff2",
+    "lib/fonts/01dcbad1bac635f9c9cd.woff2",
     "lib/media/6155340132a851f6089e.svg"
   ],
   "fileInfo": {
@@ -104,45 +89,63 @@
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1767824624106,
+      "modifiedTime": 1768431672261,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1767824624106,
+      "modifiedTime": 1768431672261,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1767824624106,
+      "modifiedTime": 1768431672261,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1767824624106,
+      "modifiedTime": 1768431672261,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1767824624106,
+      "modifiedTime": 1768431672261,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1767824624106,
+      "modifiedTime": 1768431672261,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "S3/psps/general notes.md": {
-      "modifiedTime": 1767824624106,
+      "modifiedTime": 1768431672261,
       "sourceSize": 3905,
       "exportedPath": "S3/psps/general notes.html",
+      "dependencies": []
+    },
+    "S3/SUIS/SUIS cheatsheet.md": {
+      "modifiedTime": 1768431672261,
+      "sourceSize": 5776,
+      "exportedPath": "S3/SUIS/SUIS cheatsheet.html",
+      "dependencies": []
+    },
+    "lib/fonts/c504db5c06caaf7cdfba.woff2": {
+      "modifiedTime": 1768431672261,
+      "sourceSize": 352240,
+      "exportedPath": "lib/fonts/c504db5c06caaf7cdfba.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/01dcbad1bac635f9c9cd.woff2": {
+      "modifiedTime": 1768431672261,
+      "sourceSize": 387976,
+      "exportedPath": "lib/fonts/01dcbad1bac635f9c9cd.woff2",
       "dependencies": []
     }
   }

@@ -1,19 +1,491 @@
-[
-    {
+[{
+        "text": "Jaké typy komponent obsahuje MVC?",
+        "answers_correct": [
+            "Model, Pohled, Kontroler"
+        ],
+        "answers_false": [
+            "Model, Servis, Repository",
+            "Kontroller, Databaze, API"
+        ]
+    }, {
+        "text": "Architektura MVC je:",
+        "answers_correct": [
+            "Architektonický vzor pro webové aplikace"
+        ],
+        "answers_false": [
+            "Databázový model pro relační databáze",
+            "Metodika řízení IT služeb"
+        ]
+    }, {
+        "text": "Architektura založená na modelech (MDA) je přístup jaké společnosti?",
+        "answers_correct": [
+            "OMG (Object Management Group)"
+        ],
+        "answers_false": [
+            "Microsoft",
+            "IEEE",
+            "Oracle"
+        ]
+    }, {
+        "text": "(MDA) Na jaké úrovni jsou častější změny?",
+        "answers_correct": [
+            "na nižších úrovních"
+        ],
+        "answers_false": [
+            "na vyšších úrovních",
+            "na nejvyšší podnikové úrovni"
+        ]
+    }, {
+        "text": "Hlavní myšlenka MDA ",
+        "answers_correct": [
+            "změny v oblasti SW/podniku se liší v závislosti na úrovni abstrakce"
+        ],
+        "answers_false": [
+            "Všechny změny musí být prováděny současně ve všech vrstvách",
+            "Důraz je kladen hlavně na konkrétní technologii platformy"
+        ]
+    }, {
+        "text": "Katalog služeb je ",
+        "answers_correct": [
+            "seznam všech služeb dostupných v řešení"
+        ],
+        "answers_false": [
+            "seznam uživatelů a jejich oprávnění",
+            "dokumentace hardwarové infrastruktury",
+            "evidence chyb a incidentů systému"
+        ]
+    }, {
+        "text": "Co se řeší v prvním kroku implementace SOA? ",
+        "answers_correct": [
+            "Definice základních kámenů(služeb)"
+        ],
+        "answers_false": [
+            "Návrh uživatelského rozhraní",
+            "Implementace podnikových procesů",
+            "Implementace technologických služeb"
+        ]
+    }, {
+        "text": "Způsob návrhu IS založený na službách je jaká architektura? ",
+        "answers_correct": [
+            "SOA"
+        ],
+        "answers_false": [
+            "MVC",
+            "MDA",
+            "Edge computing"
+        ]
+    }, {
+        "text": "Architektura orientovaná na služby (SOA) je",
+        "answers_correct": [
+            "způsob návrhu IS založený na službách, které jsou opakovaně použitelné a vzájemně kombinovatelné."
+        ],
+        "answers_false": [
+            "architektura zaměřená na uživatelské rozhraní",
+            "způsob návrhu IS založený na pevně svázaných modulech"
+        ]
+    }, {
+        "text": "Co je to komponenta?",
+        "answers_correct": [
+            "Nezávislá, vyměnitelná část systému, která poskytuje funkcionalitu."
+        ],
+        "answers_false": [
+            "Síťová služba běžící na operačním systému serveru",
+            "Třída odpovídající jedné databázové tabulce"
+        ]
+    }, {
+        "text": "Komponentová architektura se snaží: ",
+        "answers_correct": [
+            "pojmout tvorbu programu jako skládání nezávislých komponent."
+        ],
+        "answers_false": [
+            "centralizovat veškerou logiku do jednoho monolitického jádra",
+            "omezit možnost opětovného použití kódu"
+        ]
+    }, {
+        "text": "pohled případů užití (Use case) řeší ",
+        "answers_correct": [
+            "jaké funkce uživatel od systému očekává"
+        ],
+        "answers_false": [
+            "jakým způsobem je systém fyzicky nasazen na serverech",
+            "jaké technologie a programovací jazyky jsou použity",
+            "jak je řešena zálohovací a obnovovací strategie"
+        ]
+    }, {
+        "text": "Jaké vrstvy má SOA?",
+        "answers_correct": [
+            "veřejnou, procesní, technologickou, základní"
+        ],
+        "answers_false": [
+            "prezentační, databázovou, síťovou, bezpečnostní ",
+            "provozní, monitorovací, zálohovací, administrační"
+        ]
+    }, {
+        "text": "Kolik vrstev má SOA?",
+        "answers_correct": [
+            "4"
+        ],
+        "answers_false": []
+    }, {
+        "text": "Koho zajímá pohled nasazení?",
+        "answers_correct": [
+            "všechny tvůrce systému."
+        ],
+        "answers_false": [
+            "programátory a SW management",
+            "analytika a designera",
+            "systémové integrátory"
+        ]
+    }, {
+        "text": "Pohled nasazení je:",
+        "answers_correct": [
+            "navázání systému na HW a SW komponenty"
+        ],
+        "answers_false": [
+            "detailní návrh databázového modelu",
+            "seznam provozních incidentů a jejich řešení"
+        ]
+    }, {
+        "text": "Co popisuje procesní pohled?",
+        "answers_correct": [
+            "Jak se systém chová za běhu"
+        ],
+        "answers_false": [
+            "Jak je systém instalován na servery",
+            "Jaké licence jsou použity pro jednotlivé aplikace",
+            "Jak je řešeno dlouhodobé archivování dat"
+        ]
+    }, {
+        "text": "Koho zajímá implementační pohled?",
+        "answers_correct": [
+            "programátory a SW management"
+        ],
+        "answers_false": [
+            "všechny tvůrce systému",
+            "systémové integrátory",
+            "analytiky a designery"
+        ]
+    }, {
+        "text": "Implementační pohled řeší:",
+        "answers_correct": [
+            "Z jakých softwarových komponent je systém složený."
+        ],
+        "answers_false": [
+            "Jak často se provádí údržba serverů a restart služeb",
+            "Jaká je logická struktura systému z hlediska výsledné funkčnosti"
+        ]
+    }, {
+        "text": "Koho zajímá logický pohled?",
+        "answers_correct": [
+            "analytiky a designery"
+        ],
+        "answers_false": [
+            "programátory a SW management",
+            "správce záloh a obnovy dat",
+            "všechny tvůrce systému"
+        ]
+    }, {
+        "text": "Logický pohled popisuje",
+        "answers_correct": [
+            "logickou strukturu systému z hlediska výsledné funkčnosti"
+        ],
+        "answers_false": [
+            "způsob fyzického zapojení serverů v datacentru",
+            "proces instalace aktualizací a bezpečnostních záplat",
+            "nastavení uživatelských oprávnění a přístupových práv"
+        ]
+    }, {
+        "text": "Jake obsahuje Architektura 4+1 pohledy? ",
+        "answers_correct": [
+            "Logický, Implementační, Procesní, Pohled nasazení, pohled případů užití (Use case)"
+        ],
+        "answers_false": [
+            "Bezpečnostní, Uživatelský, Datový, Síťový, Servisní",
+            "Pohled administrátora, pohled uživatele, pohled správce sítě, pohled vývojáře, pohled managementu"
+        ]
+    }, {
+        "text": "Co je to Architektura 4+1?",
+        "answers_correct": [
+            "Architektura systému, která umožňuje nahlížet na systém z různých úhlů pohledu"
+        ],
+        "answers_false": [
+            "Nástroj pro monitoring výkonu serverů rozdělený do pěti úrovní",
+            "Způsob řízení IT provozu, který kombinuje čtyři typy dokumentace a jeden plán údržby"
+        ]
+    }, {
+        "text": "Co zahrnuje Architektura IS/IT? ",
+        "answers_correct": [
+            "např. strukturu IT sítě a systému"
+        ],
+        "answers_false": [
+            "přehled používaných aplikací a jejich licencí",
+            "seznam hardwarových zařízení a jejich technické parametry"
+        ]
+    }, {
+        "text": "Co je úkolem TPS (Transaction Processing System)? ",
+        "answers_correct": [
+            "sběr, aktualizaci a evidence dat."
+        ],
+        "answers_false": [
+            "analýza historických dat a tvorba prognóz",
+            "podpora strategického rozhodování vedení",
+            "agregace dat a tvorba manažerských přehledů"
+        ]
+    }, {
+        "text": "Do jakých tří linií jsou procesi MIS integrovány? ",
+        "answers_correct": [
+            "obchodně – logistická, finančně – účetní a průřezová"
+        ],
+        "answers_false": [
+            "strategická – plánovací, operativní – výrobní a kontrolní",
+            "datová – informační, aplikační a prezentační"
+        ]
+    }, {
+        "text": "K čemu slouží EDI ",
+        "answers_correct": [
+            "Technologie elektronické výměny obchodních dokumentů mezi firmami."
+        ],
+        "answers_false": [
+            "Elektronická archivace interních dokumentů.",
+            "Technologie pro správu e-mailové komunikace.",
+            "Přenos nestrukturovaných dat mezi aplikacemi."
+        ]
+    }, {
+        "text": "Co je ECM? ",
+        "answers_correct": [
+            "Systém pro správu nestrukturovaného obsahu a dokumentů organizace."
+        ],
+        "answers_false": [
+            "Nástroj pro plánování podnikových zdrojů.",
+            "Technologie pro řízení výrobních procesů.",
+            "Systém pro správu strukturovaných databázových dat."
+        ]
+    }, {
+        "text": "Co je OIS ",
+        "answers_correct": [
+            "Blok IS na podporu kancelářských a administrativních prací."
+        ],
+        "answers_false": [
+            "Systém pro správu strukturovaných databázových dat.",
+            "Analytický systém pro manažerské rozhodování.",
+            "Část IS pro plánování podnikových zdrojů."
+        ]
+    }, {
+        "text": "K čemu slouží EIS (Executive IS) ",
+        "answers_correct": [
+            "ke strategickému řízení podniku"
+        ],
+        "answers_false": [
+            "pro řízení výroby",
+            "pro každodenní řízení procesů",
+            "pro správu kancelářských dokumentů"
+        ]
+    }, {
+        "text": "K čemu slouží DSS (Decision Support System) ",
+        "answers_correct": [
+            "Pro manažérské plánování, nástroje pro odhady, simulační úlohy…"
+        ],
+        "answers_false": [
+            "Pro rutinní zpracování transakcí.",
+            "Pro správu kancelářských dokumentů."
+        ]
+    }, {
+        "text": "Globální Architektura je: ",
+        "answers_correct": [
+            "Hrubý návrh informačního systému, který zachycuje jednotlivé komponenty a jejich vzájemné vazby."
+        ],
+        "answers_false": [
+            "Popis podniku jako systému procesů, vazeb a pravidel.",
+            "Grafické a písemné vyjádření (popis) celkové koncepce informačních systémů a technologií ve firmě.",
+            "Detailní návrh konkrétní aplikace."
+        ]
+    }, {
+        "text": "Co je MIS (Management IS) ",
+        "answers_correct": [
+            "Systém podporující řízení podniku na taktické úrovni."
+        ],
+        "answers_false": [
+            "Systém podporující rozhodování pomocí analýz.",
+            "Systém určený pro podporu vrcholového managementu.",
+            "Nástroj pro strategické rozhodování vedení."
+        ]
+    }, {
+        "text": "Dílčí architektury jsou: ",
+        "answers_correct": [
+            "Detailnější návrhy IS/IT"
+        ],
+        "answers_false": [
+            "Obecné strategické cíle rozvoje IS.",
+            "Organizační struktura IT oddělení.",
+            "Dokumentace provozních incidentů."
+        ]
+    }, {
+        "text": "Co je Architektura IS/IT? ",
+        "answers_correct": [
+            "Grafické a písemné vyjádření (popis) celkové koncepce informačních systémů a technologií ve firmě."
+        ],
+        "answers_false": [
+            "Technická dokumentace hardwarového vybavení organizace.",
+            "Hrubý návrh informačního systému, který zachycuje jednotlivé komponenty a jejich vzájemné vazby.",
+            "Soubor provozních postupů pro správu IT."
+        ]
+    }, {
+        "text": "Co jsou nekvalifikované přínosy? ",
+        "answers_correct": [
+            "Opakované (zvýšení výroby, zlepšení jména…)"
+        ],
+        "answers_false": [
+            "Jednorázové (prodej IS, prodej zařízení…)",
+            "Finančně vyčíslitelné (úspora nákladů, zvýšení obratu)",
+            "Krátkodobé (okamžité snížení nákladů, rychlá návratnost)"
+        ]
+    }, {
+        "text": "Co jsou kvalifikované přínosy? ",
+        "answers_correct": [
+            "Jednorázové (prodej IS, prodej zařízení…)"
+        ],
+        "answers_false": [
+            "Opakované (zvýšení výroby, zlepšení jména…)",
+            "Dlouhodobé (zlepšení kultury firmy, lepší pracovní prostředí)",
+            "Neměřitelné (kvalita informací, lepší rozhodování)"
+        ]
+    }, {
+        "text": "Patří MS word mezi Aplikační software?",
+        "answers_correct": [
+            "Ano"
+        ],
+        "answers_false": [
+            "Ne",
+            "Nevím"
+        ]
+    }, {
+        "text": "Kdo je systémový integrátor? ",
+        "answers_correct": [
+            "Subjekt, který navrhne, propojí, zavede a udržuje IS."
+        ],
+        "answers_false": [
+            "Subjekt, který navrhuje architekturu informačního systému.",
+            "Dodavatel odpovědný za výběr a konfiguraci softwarových řešení.",
+            "Odborník zajišťující metodickou podporu při zavádění IS."
+        ]
+    }, {
+        "text": "Systémová integrace je: ",
+        "answers_correct": [
+            "propojování informačních systémů, aplikací a technologií tak, aby spolu fungovaly jako jeden celek."
+        ],
+        "answers_false": [
+            "Způsob řízení provozu informační infrastruktury v rámci organizace.",
+            "Proces optimalizace vnitřních databází informačního systému."
+        ]
+    }, {
+        "text": "Informační strategie je: ",
+        "answers_correct": [
+            "dokument"
+        ],
+        "answers_false": [
+            "systém",
+            "prezentace",
+            "zbytečnost"
+        ]
+    }, {
+        "text": "Souhrn technických a programových prostředků je: ",
+        "answers_correct": [
+            "Informační technologie"
+        ],
+        "answers_false": [
+            "Informační systém",
+            "Systémová integrace",
+            "Aplikační software"
+        ]
+    }, {
+        "text": "Co je to IS?",
+        "answers_correct": [
+            "Organizovaný soubor lidí, technologií a procesů, které sbírají, ukládají a zpracovávají data."
+        ],
+        "answers_false": [
+            "Soubor technických zařízení určených k ukládání dat.",
+            "Organizovaný soubor softwarových nástrojů určených k podpoře řízení organizace.",
+            "Datově orientovaný systém zaměřený na evidenci a reporting."
+        ]
+    }, {
+        "text": "Co je to informační pyramida? ",
+        "answers_correct": [
+            "Model, který popisuje přechod data → informace → znalosti → moudro"
+        ],
+        "answers_false": [
+            "Model znázorňující architekturu informačního systému.",
+            "Model, který popisuje přechod vstupy → procesy → výstupy → rozhodnutí.",
+            "Schéma rozdělení rolí uživatelů v informačním systému."
+        ]
+    }, {
+        "text": "Co je to sémantický pohled?   ",
+        "answers_correct": [
+            "Pohled, zabývající se významem informace."
+        ],
+        "answers_false": [
+            "Pohled, zabývající se strukturou informace.",
+            "Pohled, zabývající se významem informace pro příjemce.",
+            "Pohled zaměřený na praktické využití informace v řízení."
+        ]
+    }, {
+        "text": "Co je to syntaktický pohled? ",
+        "answers_correct": [
+            "Pohled, zabývající se strukturou informace."
+        ],
+        "answers_false": [
+            "Pohled, který se zabývá významem informace pro příjemce.",
+            "Pohled, zabývající se významem informace.",
+            "Pohled hodnotící obsah informace bez ohledu na její zápis."
+        ]
+    }, {
+        "text": "Co je to ERP?",
+        "answers_correct": [
+            "IS, který umožňuje efektivně řídit všechny klíčové procesy ve firmě."
+        ],
+        "answers_false": [
+            "Nástroj zaměřený na správu hardwaru a počítačové sítě.",
+            "Databázový systém sloužící k archivaci dat.",
+            "Platforma zaměřená na vývoj a testování informačního systému."
+        ]
+    }, {
+        "text": "Co je to outsourcing?",
+        "answers_correct": [
+            "Svěření správy, údržby nebo provozu IS externí firmě"
+        ],
+        "answers_false": [
+            "Automatizace podnikových procesů",
+            "Vlastní vývoj IS firmou",
+            "Přesun informačního systému na cloudové řešení"
+        ]
+    }, {
+        "text": "Které tři základní složky tvoří informační systém?",
+        "answers_correct": [
+            "Lidé, data, technologie"
+        ],
+        "answers_false": [
+            "Hardware, software, síť",
+            "Procesy, strategie, cíle",
+            "Aplikace, databáze, uživatelé"
+        ]
+    }, {
+        "text": "Jaké máme pohledy na informaci?",
+        "answers_correct": [
+            "Syntaktický, Sémantický, Pragmatický"
+        ],
+        "answers_false": [
+            "Datový, Procesní, Uživatelský",
+            "Technický, Procesní, Pragmatický",
+            "Formální, Obsahový, Uživatelský"
+        ]
+    }, {
+        "text": "Který pohled na informaci řeší její význam pro příjemce?",
         "answers_correct": [
             "Pragmatický"
         ],
         "answers_false": [
+            "Syntaktický",
             "Sémantický",
-            "Syntaktický"
-        ],
-        "text": "Který pohled na informaci řeší její význam pro příjemce?"
-    },
-    {
-        "answers": [
-            "Informační strategie",
-            "Informacni strategie"
-        ],
-        "text": "_______ je dokument průběžně teoreticky ověřovaný a modifikovaný, jehož úkolem je stálá integrace IS/ICT s globální strategií podniku."
+            "Procesní"
+        ]
     }
 ]

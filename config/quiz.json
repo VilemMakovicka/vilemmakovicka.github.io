@@ -1,11 +1,5 @@
 {
     "question_file_names": [
-        "Algorithms_and_Programming.json",
-        "Artificial_intelligence.json",
-        "Computer_networks.json",
-        "Cybersecurity.json",
-        "Database_systems.json",
-        "Information_systems.json",
         "SUIS.json"
     ],
     "button_answer": "Zobrazit správnou odpověď",
@@ -14,5 +8,5 @@
     "response_text_correct": "Správně!",
     "response_text_wrong": "Špatně. Zkus to znovu.",
     "response_text_answer": "Správná odpověď: {{answer}}",
-    "show_categories": true
+    "show_categories": false
 }

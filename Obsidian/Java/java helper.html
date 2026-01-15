@@ -169,6 +169,16 @@ nazevMapy<span class="token punctuation">.</span><span class="token function">ge
 <li data-line="2" dir="auto" onclick="Bookcase()">Bookcase.java</li>
 <li data-line="3" dir="auto" onclick="Main()">Main.java</li>
 </ul>
+<li data-line="0" dir="auto"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>eshop:
+<ul>
+<li data-line="1" dir="auto" onclick="InterfaceZbozi()">InterfaceZbozi.java</li>
+<li data-line="2" dir="auto" onclick="MainZkouska()">Main.java</li>
+<li data-line="3" dir="auto" onclick="Recenze()">Recenze.java</li>
+<li data-line="1" dir="auto" onclick="SazbaDPH()">SazbaDPH.java</li>
+<li data-line="2" dir="auto" onclick="Sortiment()">Sortiment.java</li>
+<li data-line="3" dir="auto" onclick="Zbozi()">Zbozi.java</li>
+<li data-line="1" dir="auto" onclick="ZboziDPH()">ZboziDPH.java</li>
+</ul>
 
 <script>
   function Book() {
@@ -338,6 +348,279 @@ public class Main {
         bookcase.getBookcase().keySet().stream().filter(bookPredicate).map(bookRating).sorted().forEach(System.out::println);
     }
 }`;
+
+    // The Clipboard API - works silently in the background
+    navigator.clipboard.writeText(longText).then(() => {
+      // Optional: Log to console or show a non-animated alert
+      console.log("Text copied successfully!");
+    }).catch(err => {
+      console.error("Failed to copy: ", err);
+    });
+  }
+
+  function InterfaceZbozi() {
+    // The long text you want to copy
+    const longText = `package zkouska2.eshop;
+
+public interface InterfaceZbozi {
+    
+}`;
+
+    // The Clipboard API - works silently in the background
+    navigator.clipboard.writeText(longText).then(() => {
+      // Optional: Log to console or show a non-animated alert
+      console.log("Text copied successfully!");
+    }).catch(err => {
+      console.error("Failed to copy: ", err);
+    });
+  }
+
+  function MainZkouska() {
+    // The long text you want to copy
+    const longText = `package zkouska2.eshop;
+
+public class Main {
+    public static void main(String[] args) {
+        ZboziDPH zbozi1 = new ZboziDPH(0, "zbozi 1", 100, SazbaDPH.ZAKLADNI);
+        ZboziDPH zbozi2 = new ZboziDPH(1, "zbozi 2", 500, SazbaDPH.SNIZENA);
+
+        Sortiment sortiment1 = new Sortiment();
+
+        sortiment1.pridejZbozi(zbozi1);
+        sortiment1.pridejZbozi(zbozi2);
+
+        Recenze[] poleRecenzi = {
+            new Recenze("Zakaznik 1", "Super produkt!"), 
+            new Recenze("Zakaznik 2", "Nic moc...")
+        };
+
+        sortiment1.pridejRecenze((int)zbozi1.getId(), poleRecenzi);
+        sortiment1.pridejRecenze((int)zbozi2.getId(), new Recenze("Zakaznik 1", "Drahy produkt :("), new Recenze("Zakaznik 2", "Velmi dobre."));
+
+        sortiment1.vypisRecenzeSortimentu();
+    }
+}
+`;
+
+    // The Clipboard API - works silently in the background
+    navigator.clipboard.writeText(longText).then(() => {
+      // Optional: Log to console or show a non-animated alert
+      console.log("Text copied successfully!");
+    }).catch(err => {
+      console.error("Failed to copy: ", err);
+    });
+  }
+
+  function Recenze() {
+    // The long text you want to copy
+    const longText = `package zkouska2.eshop;
+
+public class Recenze {
+    private final String jmenoZakaznika;
+    private       String text;
+
+    public Recenze(String jmenoZakaznika, String text){
+        this.jmenoZakaznika = jmenoZakaznika;
+        this.text = text;
+    }
+
+    public String getJmenoZakaznika() {
+        return jmenoZakaznika;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+}
+`;
+
+    // The Clipboard API - works silently in the background
+    navigator.clipboard.writeText(longText).then(() => {
+      // Optional: Log to console or show a non-animated alert
+      console.log("Text copied successfully!");
+    }).catch(err => {
+      console.error("Failed to copy: ", err);
+    });
+  }
+
+  function SazbaDPH() {
+    // The long text you want to copy
+    const longText = `package zkouska2.eshop;
+
+public enum SazbaDPH {
+    ZAKLADNI(0.21f),
+    SNIZENA (0.12f);
+
+    public float sazba;
+
+    SazbaDPH(float sazba){
+        this.sazba = sazba;
+    }
+
+    public float getSazba() {
+        return sazba;
+    }
+}
+`;
+
+    // The Clipboard API - works silently in the background
+    navigator.clipboard.writeText(longText).then(() => {
+      // Optional: Log to console or show a non-animated alert
+      console.log("Text copied successfully!");
+    }).catch(err => {
+      console.error("Failed to copy: ", err);
+    });
+  }
+
+  function Sortiment() {
+    // The long text you want to copy
+    const longText = `package zkouska2.eshop;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.lang.System;
+
+public class Sortiment {
+    Map<Integer, Zbozi>   sortiment;
+    Map<Recenze, Integer> recenzeZakazniku;
+
+    public Sortiment(){
+        this.sortiment        = new HashMap<Integer, Zbozi>();
+        this.recenzeZakazniku = new HashMap<Recenze, Integer>();
+    }
+
+    public boolean has(int id){
+        return sortiment.containsKey(id);
+    }
+
+    public boolean pridejRecenzi(int id, Recenze recenze){
+        if(!this.has(id)){
+            return false;
+        }
+        recenzeZakazniku.put(recenze, id);
+        return true;
+    }
+
+    public boolean pridejZbozi(Zbozi zbozi){
+        if(this.has((int)zbozi.getId())){
+            return false;
+        }
+
+        sortiment.put((int)zbozi.getId(), zbozi);
+        return true;
+    }
+
+    public void pridejRecenze(int id, Recenze... recenze){
+        for(Recenze r : recenze){
+            this.pridejRecenzi(id, r);
+        }
+    }
+
+    public void vypisRecenzeZbozi(int id){
+        for(Entry<Recenze, Integer> recenzeEntry : recenzeZakazniku.entrySet()){
+            int     zboziID = (int)recenzeEntry.getValue();
+            Recenze recenze = (Recenze)recenzeEntry.getKey();
+            Zbozi   zbozi   = sortiment.get(zboziID);
+            if(zboziID != id) continue;
+
+            System.out.println(
+                String.format(
+                    "Obsah recenze: %s, Cena bez DPH: %s$, Cena s DPH: %s$", 
+                    recenze.getText(),
+                    zbozi.getCenaBezDPH(),
+                    zbozi.getCenaVcetneDPH()
+                )
+            );
+        }
+    }
+
+    public void vypisRecenzeSortimentu(){
+        for(Entry<Integer, Zbozi> sortimentEntry : sortiment.entrySet()){
+            int zboziID = (int)sortimentEntry.getKey();
+            this.vypisRecenzeZbozi(zboziID);
+        }
+    }
+}
+`;
+
+    // The Clipboard API - works silently in the background
+    navigator.clipboard.writeText(longText).then(() => {
+      // Optional: Log to console or show a non-animated alert
+      console.log("Text copied successfully!");
+    }).catch(err => {
+      console.error("Failed to copy: ", err);
+    });
+  }
+
+  function Zbozi() {
+    // The long text you want to copy
+    const longText = `package zkouska2.eshop;
+
+public abstract class Zbozi implements InterfaceZbozi{
+    private final long   id;
+    private       String nazev;
+    private       double cenaBezDPH;
+
+    public Zbozi(long id, String nazev, double cenaBezDPH){
+        this.id = id;
+        this.nazev = nazev;
+        this.cenaBezDPH = cenaBezDPH;
+    }
+
+    public double getCenaBezDPH() {
+        return cenaBezDPH;
+    }
+
+    public abstract double getCenaVcetneDPH();
+
+    public long getId() {
+        return id;
+    }
+
+    public String getNazev() {
+        return nazev;
+    }
+}
+`;
+
+    // The Clipboard API - works silently in the background
+    navigator.clipboard.writeText(longText).then(() => {
+      // Optional: Log to console or show a non-animated alert
+      console.log("Text copied successfully!");
+    }).catch(err => {
+      console.error("Failed to copy: ", err);
+    });
+  }
+
+  function ZboziDPH() {
+    // The long text you want to copy
+    const longText = `package zkouska2.eshop;
+
+public class ZboziDPH extends Zbozi {
+    private int      cenaVcetneDPH;
+    private SazbaDPH sazbaDPH;
+
+    public ZboziDPH(long id, String nazev, int cenaVcetneDPH, SazbaDPH sazbaDPH) {
+        super(
+            id, 
+            nazev, 
+            cenaVcetneDPH / (1 + sazbaDPH.getSazba())
+        );
+        this.cenaVcetneDPH = cenaVcetneDPH;
+        this.sazbaDPH = sazbaDPH;
+    }
+
+    @Override
+    public double getCenaVcetneDPH() {
+        return cenaVcetneDPH;
+    }
+}
+`;
 
     // The Clipboard API - works silently in the background
     navigator.clipboard.writeText(longText).then(() => {

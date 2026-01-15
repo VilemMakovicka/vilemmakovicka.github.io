@@ -1,13 +1,12 @@
 {
   "vaultName": "Skola",
-  "lastExport": 1768431672261,
+  "lastExport": 1768512712447,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark styled-scrollbars trim-cols h1-l h3-l",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "S3/psps/general notes.md",
-    "S3/SUIS/SUIS cheatsheet.md",
+    "S3/JAVA/java helper.md",
     "lib/fonts/70cc7ff27245e82ad414.ttf",
     "lib/fonts/454577c22304619db035.ttf",
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
@@ -89,63 +88,57 @@
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1768431672261,
+      "modifiedTime": 1768512712447,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1768431672261,
+      "modifiedTime": 1768512712447,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1768431672261,
+      "modifiedTime": 1768512712447,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1768431672261,
+      "modifiedTime": 1768512712447,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1768431672261,
+      "modifiedTime": 1768512712447,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1768431672261,
+      "modifiedTime": 1768512712447,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
-    "S3/psps/general notes.md": {
-      "modifiedTime": 1768431672261,
-      "sourceSize": 3905,
-      "exportedPath": "S3/psps/general notes.html",
-      "dependencies": []
-    },
-    "S3/SUIS/SUIS cheatsheet.md": {
-      "modifiedTime": 1768431672261,
-      "sourceSize": 5776,
-      "exportedPath": "S3/SUIS/SUIS cheatsheet.html",
-      "dependencies": []
-    },
     "lib/fonts/c504db5c06caaf7cdfba.woff2": {
-      "modifiedTime": 1768431672261,
+      "modifiedTime": 1768512712447,
       "sourceSize": 352240,
       "exportedPath": "lib/fonts/c504db5c06caaf7cdfba.woff2",
       "dependencies": []
     },
     "lib/fonts/01dcbad1bac635f9c9cd.woff2": {
-      "modifiedTime": 1768431672261,
+      "modifiedTime": 1768512712447,
       "sourceSize": 387976,
       "exportedPath": "lib/fonts/01dcbad1bac635f9c9cd.woff2",
+      "dependencies": []
+    },
+    "S3/JAVA/java helper.md": {
+      "modifiedTime": 1768512712447,
+      "sourceSize": 4698,
+      "exportedPath": "S3/JAVA/java helper.html",
       "dependencies": []
     }
   }

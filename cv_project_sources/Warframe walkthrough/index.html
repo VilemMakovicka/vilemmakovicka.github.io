@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/Ico-Warframe.png">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/MainStyle.css" type="text/css">
+    <link rel="stylesheet" href="styles/IndexStyle.css" type="text/css">
+    <script src="scripts/Menu-OnClick.js"></script>
+    <style>
+        body{
+            background-image: url(images/Bkg-Deimos.png);
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="TopContent">
+        <div>WARFRAME MAIN QUEST WALKTHROUGH</div>
+    </div>
+    <div class="CenterContent">
+        <div class="CenLeftContent" id="Unselectable">
+            
+        </div>
+        <div class="CenCenterContent" id="Unselectable">
+            <div class="MainMenu">
+                <div class="MenuHeader">Quests:</div>
+                <div><button class="MenuButtons" onclick="Redirect('pages/q1-Awakening.html')">Awakening</button></div>
+                <div><button class="MenuButtons" onclick="Redirect('pages/q2-VorsPrize.html')">Vor's Prize</button></div>
+                <div><button class="MenuButtons" onclick="Redirect('pages/q3-OnceAwake.html')">Once Awake</button></div>
+                <div><button class="MenuButtons" onclick="Redirect('pages/q4-TheArchwing.html')">The Archwing</button></div>
+                <div><button class="MenuButtons" onclick="Redirect('pages/q5-StolenDreams.html')">Stolen Dreams</button></div>
+                <div><button class="MenuButtons" onclick="Redirect('pages/q6-TheNewStrange.html')">The New Strange</button></div>
+            </div>
+        </div>
+        <div class="CenRightContent" id="Unselectable">
+            
+        </div>
+    </div>
+</body>
+</html>

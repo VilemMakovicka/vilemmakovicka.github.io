@@ -1,0 +1,188 @@
+.CenLeftContent{
+    width: fit-content;
+    position: relative;
+    /*background-color: cornflowerblue;*/
+}
+
+.MainMenu{
+    margin: 6vh;
+}
+
+/*.MenuHeader{
+    color: whitesmoke;
+    font-family: NotoSans-Bold;
+    font-size: clamp(1em, 2em, 2.5vh);
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}*/
+
+.CenterContent{
+    width: 100%;
+    height: calc(100% - 5em - 6vh);
+    display: flex;
+    /*background-color: violet;*/
+}
+
+.CenCenterContent{
+    /*background-color: thistle;*/
+    height: calc(100% - 5em - 6vh);
+}
+
+.OverflowContent{
+    /*background-color: rgba(0, 0, 0, 0.675);   */
+    border-top: solid white;
+    border-bottom: solid white;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-family: NotoSans-Regular;
+    font-size: 1em;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    margin-right: 6vh;
+}
+
+.OverflowContent > h3{
+    text-align: center;
+}
+.OverflowContent > h5{
+    text-align: center;
+}
+
+.OverflowContent > p{
+    /*padding-left: 1em;
+    padding-right: 1em;*/
+    text-align: center;
+    transition: 0.3s;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+.OverflowContent > p:hover{
+    background-color: rgba(92, 92, 92, 0.589);
+    border-radius: 10px;
+}
+
+.iframe{
+    border-width: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    border-top: solid white;
+    border-bottom: solid white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/*WINDOWSIZE*/
+@media screen and (min-width: 80em){
+    .CenCenterContent{
+        width: calc(100% - 12vh - 28vh);
+    }
+    .OverflowContent{
+        overflow: hidden;
+        overflow-y: scroll;
+        max-height: 68vh;
+    }
+    body{
+        position: fixed;
+    }
+}
+@media screen and (max-width: 80em){
+    body{
+        position:absolute;
+        height: fit-content;
+    }
+    .CenLeftContent{
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .MainMenu{
+        padding-Top: 0.5px;
+        padding-Bottom: 0.5px;
+        font-size: auto;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    .MenuButtons{
+        padding-Top: 0.5px;
+        padding-Bottom: 0.5px;
+        padding-left: auto;
+        padding-Right: auto;
+        font-size: auto;
+        width: max-content;
+    }
+    .CenterContent{
+        flex-direction: column;
+    }
+    .OverflowContent{
+        margin-left: 6vh;
+    }
+}
+@media screen and (max-width: 50em){
+    .MainMenu{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .CenLeftContent{
+        width: calc(100% - 5px);
+    }
+    .CenCenterContent{
+        width: calc(100% - 5px);
+    }
+}
+/*windowsize*/
+
+/*SCROLLBAR*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+   
+
+::-webkit-scrollbar-thumb {
+    background: rgba(92, 92, 92, 0.589);
+    border-radius: 10px;
+    border-width: 1px;
+    width: 7px;
+    transition: 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: grey;
+}
+/*scrollbar*/
+
+/*TEXT PROPERTIES*/
+#VisibleBlue{
+    color: deepskyblue;
+    text-decoration: none;
+}
+#VisibleBlue:hover{
+    text-decoration: underline;
+}
+#VisibleOrange{
+    color: darkorange;
+    text-decoration: none;
+}
+#VisibleOrange:hover{
+    text-decoration: underline;
+}
+#Margin6Top{
+    margin-top: 6vh;
+}
+#Margin6Bottom{
+    margin-bottom: 6vh;
+}

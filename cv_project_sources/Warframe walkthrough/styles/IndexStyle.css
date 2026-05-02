@@ -1,0 +1,11 @@
+.CenterContent{
+    width: 100%;
+    height: fit-content;
+    display: block;
+}
+
+.MainMenu{
+    margin: auto;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}

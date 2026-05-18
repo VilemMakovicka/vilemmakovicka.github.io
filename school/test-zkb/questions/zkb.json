@@ -1,0 +1,968 @@
+[
+{
+    "type":"select_single",
+    "text":"Kybernetická bezpečnost",
+    "answers_correct":["je součástí informační bezpečnosti"],
+    "answers_false":["je nadřazena informační bezpečnosti", "se zabývá ochranou informací v jakékoliv podobě", "je totéž, co informační bezpečnost"]
+},
+{
+    "type":"select_single",
+    "text":"Základní atributy bezpečnosti jsou",
+    "answers_correct":["důvěrnost, integrita a dostupnost"],
+    "answers_false":["důvěrnost, soukromí a dostupnost", "důvěrnost, integrita a spolehlivost", "diskrétnost, integrita a dostupnost"]
+},
+{
+    "type":"select_single",
+    "text":"Dostupnost je zajištěna, pokud",
+    "answers_correct":["je informace k dispozici v okamžiku její potřeby"],
+    "answers_false":["má k určité informaci přístup pouze oprávněná osoba", "se můžeme spolehnout na její správnost a úplnost", "je zajištěna neodmítnutelnost"]
+},
+{
+    "type":"select_single",
+    "text":"Důvěrnost je zajištěna, pokud",
+    "answers_correct":["má k určité informaci přístup pouze oprávněná osoba"],
+    "answers_false":["se můžeme spolehnout na její správnost a úplnost", "je informace k dispozici v okamžiku její potřeby", "je zajištěna neodmítnutelnost"]
+},
+{
+    "type":"select_single",
+    "text":"Integrita je zajištěna, pokud",
+    "answers_correct":["se můžeme spolehnout na její správnost a úplnost"],
+    "answers_false":["má k určité informaci přístup pouze oprávněná osoba", "je informace k dispozici v okamžiku její potřeby", "je zajištěna neodmítnutelnost"]
+},
+{
+    "type":"select_single",
+    "text":"Integrita může být nejlépe zajištěna",
+    "answers_correct":["kryptografickým hashem HMAC"],
+    "answers_false":["zálohováním", "2FA (dvou fázová autentizace)", "silným heslem"]
+},
+{
+    "type":"select_single",
+    "text":"Požadavek na zajištění důvěrnosti, integrity a dostupnosti by měl být uveden v",
+    "answers_correct":["bezpečnostní politice"],
+    "answers_false":["bezpečnostním standardu", "bezpečnostní baseline", "příručce bezpečnosti"]
+},
+{
+    "type":"select_single",
+    "text":"Požadavky na délku hesla, jeho složitost a dobu platnosti by měly být uvedeny v",
+    "answers_correct":["bezpečnostním standardu"],
+    "answers_false":["bezpečnostní politice", "bezpečnostní příručce", "bezpečnostní strategii"]
+},
+{
+    "type":"select_single",
+    "text":"Bezpečnostní politika je dokument",
+    "answers_correct":["popisující záměr vedení organizace v oblasti informační bezpečnosti"],
+    "answers_false":["obsahující informace o tom, jak má být bezpečně nastaven operační systém", "definující postup správce systému při obnově serveru", "obsahující minimální bezpečnostní požadavky"]
+},
+{
+    "type":"select_single",
+    "text":"Bezpečnostní standard je dokument",
+    "answers_correct":["obsahující informace o tom, jak má být bezpečně nastaven operační systém"],
+    "answers_false":["popisující záměr vedení organizace v oblasti informační bezpečnosti", "definující postup správce systému při obnově serveru", "obsahující minimální bezpečnostní požadavky"]
+},
+{
+    "type":"select_single",
+    "text":"Security by obscurity je kontroverzní přístup k řízení bezpečnosti, který",
+    "answers_correct":["spočívá v utajení použitých bezpečnostních opatření"],
+    "answers_false":["nelze v žádném případě doporučit", "lze doporučit pouze u šifrovacích algoritmů", "lze doporučit pouze u CCTV systémů"]
+},
+{
+    "type":"select_single",
+    "text":"Výjimka z politiky by měla být udělena pokud",
+    "answers_correct":["škoda z případného incidentu je nižší než zisk"],
+    "answers_false":["znepříjemňuje život uživatelům", "je politiku obtížné vynutit", "tento požadavek vzniká často"]
+},
+{
+    "type":"select_single",
+    "text":"Jaké bezpečnostní opatření by měl manažer bezpečnosti zavést, aby měl jistotu, že do datového centra vstupují jen oprávněné osoby?",
+    "answers_correct":["mantrap (dvoudveřový prostor pro řízení přístupu pro jednu osobu)"],
+    "answers_false":["CCTV (Closed Circuit Television - uzavřený televizní okruh)", "biometrický senzor", "kontrola ostrahou"]
+},
+{
+    "type":"select_single",
+    "text":"Jaké bezpečnostní opatření kromě biometrie by měl manažer bezpečnosti zavést, aby měl jistotu, že do datového centra vstupují jen oprávněné osoby?",
+    "answers_correct":["PIN"],
+    "answers_false":["včasná aktualizace access listu", "kontrola vstupujících osob ostrahou", "mantrap (dvoudveřový prostor pro řízení přístupu pro jednu osobu)"]
+},
+{
+    "type":"select_single",
+    "text":"Nejspolehlivější metoda jak zabránit krádeži informací ze strany zaměstnance je",
+    "answers_correct":["řídit přístup na principu need to know (potřebuji to vědět)"],
+    "answers_false":["nechat zaměstnance podepsat NDA (Non-Disclosure Agreement – dohoda o mlčenlivosti)", "provádět důkladnou bezpečnostní osvětu", "při odchodu zaměstnance okamžitě zrušit všechny přístupy"]
+},
+{
+    "type":"select_single",
+    "text":"Nejspolehlivější metoda jak zabránit krádeži informací ze strany zaměstnance je",
+    "answers_correct":["dobře zaměstnancům zaplatit a budovat dobrou firemní kulturu"],
+    "answers_false":["nechat zaměstnance podepsat NDA (Non-Disclosure Agreement – dohoda o mlčenlivosti)", "dvou-faktorová autentizace", "při odchodu zaměstnance okamžitě zrušit všechny přístupy"]
+},
+{
+    "type":"select_single",
+    "text":"Bezpečnostní standard ve srovnání s politikou obsahuje",
+    "answers_correct":["konkrétní požadavky"],
+    "answers_false":["obecné požadavky", "jen nezávazné doporučení", "minimální bezpečnostní požadavky"]
+},
+{
+    "type":"select_single",
+    "text":"Co by měl manažer informační bezpečnosti udělat jako první krok po svém jmenování do funkce?",
+    "answers_correct":["Seznámit se se strategií businessu."],
+    "answers_false":["Nechat provést sken zranitelností.", "Prověřit jaká je úroveň bezpečnostního povědomí v organizaci.", "Provést analýzu rizik."]
+},
+{
+    "type":"select_single",
+    "text":"Manažer informační bezpečnosti se musí pokusit",
+    "answers_correct":["vyrovnat s technickými a business požadavky."],
+    "answers_false":["eliminovat všechny zranitelnosti.", "eliminovat všechna rizika.", "splnit všechny legislativní a regulatorní požadavky."]
+},
+{
+    "type":"select_single",
+    "text":"Podporu vrcholového managementu pro program bezpečnosti si lze nejlépe získat:",
+    "answers_correct":["propojením rizik s business cíly organizace"],
+    "answers_false":["srovnávací analýzou stávajích opatření proti best practice", "srovnávací analýzou stávajích opatření proti ISO 2700x", "uvedením příkladů úspěšných útoků na jiné firmy"]
+},
+{
+    "type":"select_single",
+    "text":"Manažer informační bezpečnosti pracující pro korporaci musí v zemi svého působení zajistit, že program informační bezpečnosti bude:",
+    "answers_correct":["v souladu s legislativou dané země"],
+    "answers_false":["v souladu s legislativou ústředí společnosti", "platný ve všech zemích", "platný ve všech zemích EU"]
+},
+{
+    "type":"select_single",
+    "text":"## 24 Co bezpečnostnímu manažerovi pomůže nejlépe přesvědčit představenstvo o nutnosti investice do daného bezpečnostního řešení?",
+    "answers_correct":["Uvedení reálných hrozeb, které ohrožují cíle businessu."],
+    "answers_false":["Příklady incidentů ve firmách působících ve stejném odvětví.", "Doložení skutečnosti, že se jedná o best practice.", "Předložení studie od velké čtyřky."]
+},
+{
+    "type":"select_single",
+    "text":"Nejdůležitější součástí kontraktu je",
+    "answers_correct":["právo na audit"],
+    "answers_false":["SLA (Service-level agreement - dohoda o úrovni služeb).", "právo na vypovězení smlouvy", "právo na náhradu škody"]
+},
+{
+    "type":"select_single",
+    "text":"Jak donutit systémové administátory, aby si vzali bezpečnost za vlastní a nesli odpovědnost?",
+    "answers_correct":["Zahrnout požadavek na bezpečnost do jejich pracovní náplně a KPI (Key Performace Indicators – klíčový ukazatel výkonnosti)."],
+    "answers_false":["Požadovat po nich certifikaci.", "Vyškolit je v penetračních testech a skenování zranitelností.", "Naučit je provádět bezpečnostní audit."]
+},
+{
+    "type":"select_single",
+    "text":"Jak nejlépro zajistit, že zaměstnanci chápou správně požadavky uvedené v politikách a směrnicích?",
+    "answers_correct":["realizovat e-learning kurz zakončený testem"],
+    "answers_false":["nechat je podepsat, že byli seznámeni", "zaúkolovat přímé nadřízené", "rozeslat phishingový email"]
+},
+{
+    "type":"select_single",
+    "text":"Nejúčinnější způsob jako uživatele upozornit na nebezpečí a nutnost dodržovat pravidla je",
+    "answers_correct":["zpráva na obrazovce zobrazovaná při přihlášení"],
+    "answers_false":["stránka na intranetu", "email", "papírový oběžník"]
+},
+{
+    "type":"select_single",
+    "text":"Indikátorem, že bezpečnostní osvěta byla úspěšná je",
+    "answers_correct":["rostoucí počet hlášených incidentů"],
+    "answers_false":["klesající počet hlášených incidentů", "neměnný počet incidentů", "počet incidentů pohybující se kolem průměru"]
+},
+{
+    "type":"select_single",
+    "text":"Když se objeví nový regulatorní požadavek, tak by manažer bezpečnosti měl jako první",
+    "answers_correct":["analyzovat rizika vyplývající z nesouladu"],
+    "answers_false":["ověřit, zda stávající opatření jsou dostačující", "se sejít s managementem a poradit se jak vyhovět požadavku", "zavést požadovaná opatření"]
+},
+{
+    "type":"select_single",
+    "text":"Co je charakteristické pro decentralizované řízení informační bezpečnosti v korporaci mající více poboček po celém světě?",
+    "answers_correct":["lepší soulad s cíli businessu"],
+    "answers_false":["lepší vynutitelnost politik", "snížení nákladů", "vyšší kvalita"]
+},
+{
+    "type":"select_single",
+    "text":"Co by se mělo objevit v pravidelném reportu o bezpečnosti předkládanému vrcholovému managementu?",
+    "answers_correct":["trend týkající se incidentů a souladu s politikou"],
+    "answers_false":["počet serverů, které jsou v souladu s politikou", "počet bezpečnostních incidentů", "počet zranitelností"]
+},
+{
+    "type":"select_single",
+    "text":"Kdo je odpovědný za řízení přístupu k business datům?",
+    "answers_correct":["vlastník dat"],
+    "answers_false":["administrátor systému", "manažer bezpečnosti", "CIO (Chief Information Officer) - vedoucí oddělení IT)"]
+},
+{
+    "type":"select_single",
+    "text":"Jestliže pro vyřešení problému programátor potřebuje přístup do produkčního systému, tak je nutné",
+    "answers_correct":["logovat veškeré jeho aktivity a nechat je vyhodnotit"],
+    "answers_false":["nechat ho podepsat prohlášení o plné odpovědnosti", "použít dedikovaný účet pro tento účel", "mu vyhovět"]
+},
+{
+    "type":"select_single",
+    "text":"Nejspolehlivější metoda jak zajistit, že externisté nedostanou nevhodné přístupy je",
+    "answers_correct":["RBAC (Role-Based Access Control - Řízení přístupu na základě rolí)"],
+    "answers_false":["diskrétní řízení přístupu", "mandatorní řízení přístupu", "lattice-based access control (řízení přístupu založené na mřížce)"]
+},
+{
+    "type":"select_single",
+    "text":"Jaká je nejúčinnější ochrana před nežádoucím sdílením informací mezi uživateli?",
+    "answers_correct":["mandatorní řízení přístupu"],
+    "answers_false":["RBAC (Role-Based Access Control - Řízení přístupu na základě rolí)", "diskrétní řízení přístupu", "walled garden/lattice based access control (uzavřená platforma)"]
+},
+{
+    "type":"select_single",
+    "text":"Jaký je nejúčinnější způsob řízení přístupu?",
+    "answers_correct":["RBAC (Role-Based Access Control - Řízení přístupu na základě rolí)"],
+    "answers_false":["2FA (dvou faktorová autentizace)", "diskrétní řízení přístupu", "centralizované"]
+},
+{
+    "type":"select_single",
+    "text":"Jaký je nejčastější způsob řízení přístupu v malých firmách?",
+    "answers_correct":["diskrétní"],
+    "answers_false":["mandatorní", "RBAC (Role-Based Access Control - Řízení přístupu na základě rolí)", "walled garden/lattice based access control (uzavřená platforma)"]
+},
+{
+    "type":"select_single",
+    "text":"Organizace uzavřela smlouvu s třetí stranou, která pro ni zajišťuje běh jejího účetního systému. Jaký požadavek je nejdůležitější uvést ve smlouvě?",
+    "answers_correct":["právo na audit"],
+    "answers_false":["školení zaměstnanců", "konkrétní bezpečnostní požadavky", "dodržování politiky"]
+},
+{
+    "type":"select_single",
+    "text":"Co je nejdůležitější při ukončení pracovního poměru?",
+    "answers_correct":["zrušit všechny přístupy do systému"],
+    "answers_false":["odebrat uživatele ze seznamu zaměstnanců", "odebrat zaměstnanci přístupovou kartu", "smazat všechna jeho data"]
+},
+{
+    "type":"select_single",
+    "text":"Princip oddělení pravomocí je narušen v okamžiku, kdy do produkční databáze a tabulky obsahující oprávnění jednotlivých uživatelů má právo zápisu",
+    "answers_correct":["programátor"],
+    "answers_false":["bezpečnostní administrátor", "vlastník dat", "gestor"]
+},
+{
+    "type":"select_single",
+    "text":"Kdy je organizace nejzranitelnější (z hlediska bezpečnosti)?",
+    "answers_correct":["když dochází k fůzi"],
+    "answers_false":["když otevírá novou pobočku", "když se stěhuje do nové lokality", "když se mění infrastruktura"]
+},
+{
+    "type":"select_single",
+    "text":"Který typ záložního datového centra skýtá největší záruky?",
+    "answers_correct":["hot site (horké místo)"],
+    "answers_false":["cold site (studené místo)", "warm site (teplé místo)", "síť partnera, s nímž je uzavřena reciproční dohoda"]
+},
+{
+    "type":"select_single",
+    "text":"Který z dokumentů se mění nejčastěji?",
+    "answers_correct":["hardening serveru (Proces zajištění vysoké úrovně bezpečnosti aplikací a operačních systémů na serveru)"],
+    "answers_false":["politika autentizace", "politika zálohování", "politika klasifikace informací"]
+},
+{
+    "type":"select_single",
+    "text":"Pokud jde o záložní datové centrum, tak to by mělo",
+    "answers_correct":["být vybaveno stejnými verzemi SW"],
+    "answers_false":["být s primárním propojeno rychlou linkou", "disponovat stejnou kapacitou", "být blízko primárního"]
+},
+{
+    "type":"select_single",
+    "text":"Bylo identifikováno několik různých zranitelností, co by měl manažer bezpečnosti udělat?",
+    "answers_correct":["analýzu rizik"],
+    "answers_false":["business impact analýzu", "sken zranitelností", "GAP analýzu (analýza tržních mezer)"]
+},
+{
+    "type":"select_single",
+    "text":"Objevila se kritická zranitelnost, co by měl manažer",
+    "answers_correct":["ověřit zda se ho zranitelnost týká"],
+    "answers_false":["nasadit patch (záplata)", "otestovat patch (záplatu)", "odpojit zranitelný systém od sítě"]
+},
+{
+    "type":"select_single",
+    "text":"Který z následujících není příkladem zranitelnosti",
+    "answers_correct":["použití least privilege (nejmenší privilegia)"],
+    "answers_false":["nedostatečné logování", "nedostatečná kontrola vstupu", "použití slabého hesla"]
+},
+{
+    "type":"select_single",
+    "text":"Kdo by měl provést analýzu bezpečnostních rizik v organizaci?",
+    "answers_correct":["procesní manažer"],
+    "answers_false":["manažer bezpečnosti", "vrcholový management", "výbor pro kybernetickou bezpečnost"]
+},
+{
+    "type":"select_single",
+    "text":"Kdo by měl podporovat a požadovat provedení analýzy rizik v",
+    "answers_correct":["vrcholový management"],
+    "answers_false":["manažer bezpečnosti", "procesní manažer", "výbor pro kybernetickou bezpečnost"]
+},
+{
+    "type":"select_single",
+    "text":"Který server by měl být umístěn do DMZ (demilitarizované zóny)?",
+    "answers_correct":["IDS (Intrusion Detection Systém)"],
+    "answers_false":["autentizační", "databázový", "tiskový"]
+},
+{
+    "type":"select_single",
+    "text":"Který server by měl být umístěn do DMZ (demilitarizované zóny)?",
+    "answers_correct":["webový"],
+    "answers_false":["tiskový", "autentizační", "databázový"]
+},
+{
+    "type":"select_single",
+    "text":"Který server by měl být umístěn do DMZ (demilitarizované zóny)?",
+    "answers_correct":["proxy"],
+    "answers_false":["souborový", "databázový", "aplikační"]
+},
+{
+    "type":"select_single",
+    "text":"Co nejlépe zajistí důvěrnost přenášených dat?",
+    "answers_correct":["šifrování"],
+    "answers_false":["hash", "2FA (dvou faktorová autentizace)", "logování"]
+},
+{
+    "type":"select_single",
+    "text":"Extranet (privátní internet) server je vhodné umístit",
+    "answers_correct":["mezi dva firewally"],
+    "answers_false":["před firewall", "za firewall", "do první pozice v racku"]
+},
+{
+    "type":"select_single",
+    "text":"Příliš mnoho pravidel na firewallu může způsobit",
+    "answers_correct":["snížení propustnosti"],
+    "answers_false":["pád firewallu", "vygenerování většího počtu alertů", "nezamýšlený efekt"]
+},
+{
+    "type":"select_single",
+    "text":"Jaká je výhoda dvou firewallů připojených do internetu?",
+    "answers_correct":["vyšší bezpečnost"],
+    "answers_false":["load balancing (vyvažování zátěže)", "nižší provozní náklady", "žádná"]
+},
+{
+    "type":"select_single",
+    "text":"Hlavní důvod zavedení SSO (Single Sign-On – mechanismus pro jediné přihlášení) je",
+    "answers_correct":["snížení administrativní zátěže"],
+    "answers_false":["zvýšení bezpečnosti", "absence 2FA", "prodloužit dobu platnosti hesla"]
+},
+{
+    "type":"select_single",
+    "text":"Wi-Fi by měla používat protokol",
+    "answers_correct":["WPA"],
+    "answers_false":["WEP", "WAP", "WPE"]
+},
+{
+    "type":"select_single",
+    "text":"Jaká je slabina bezpečnostních řešení založených na signaturách (charakteristických řetězcích – otisk viru)?",
+    "answers_correct":["neodhalí nové útoky"],
+    "answers_false":["jsou výrazně dražší na provoz než behaviorální řešení", "generují velký počet false positive alertů (falešně pozitivní výstrah)", "lze je snadno deaktivovat"]
+},
+{
+    "type":"select_single",
+    "text":"Jaká je nejlepší obrana před APT (Advanced Persistent Threat)",
+    "answers_correct":["obrana v hloubce"],
+    "answers_false":["auditing a monitoring", "dvoufaktorová autentizace", "striktní řízení přístupu"]
+},
+{
+    "type":"select_single",
+    "text":"I když je použita challenge response autentizace (výzva na odpověď při autentizaci), tak heslo může být odchyceno prostřednictvím techniky",
+    "answers_correct":["replay attack (útok přehráním)"],
+    "answers_false":["MITM (Man-in-the-middle - snaha útočníka odposlouchávat komunikaci mezi účastníky tak, že se stane aktivním prostředníkem).", "IP spoofing (vytvoření IP datagramu s falešnou zdrojovou IP adresou)", "trojského koně"]
+},
+{
+    "type":"select_single",
+    "text":"Zranitelnost CSRF (Cross Site Request Forgery) spočívá v",
+    "answers_correct":["absenci autorizačního tokenu"],
+    "answers_false":["přetečení zásobníku", "neošetření vstupních dat", "neošetření výstupních dat"]
+},
+{
+    "type":"select_single",
+    "text":"Nejlepší ochrana před DDoS (distributed denial-of-service attack) útokem je",
+    "answers_correct":["zahazovat podezřelé pakety"],
+    "answers_false":["nasadit load balancer", "udržovat všechny prvky aktuální", "používat NAT"]
+},
+{
+    "type":"select_single",
+    "text":"Nejspolehlivější metoda jak zabránit krádeži informací ze strany zaměstnance je",
+    "answers_correct":["nasazení host based DLP (hostitelské DLP- Data Loss Prevention – ochrana před ztrátou dat)"],
+    "answers_false":["šifrování dat", "časté zálohování", "nasazení RBAC (Role Based Access Control - model řízení přístupu založený na uspořádání uživatelů do rolí a přiřazování oprávnění ke každé roli podle potřeby)"]
+},
+{
+    "type":"select_single",
+    "text":"Nejvhodnější protokol pro zajištění důvěrnosti dat přenášených mezi webovou aplikací a koncovým zařízením uživatele je",
+    "answers_correct":["TLS (Transport Layer Security)"],
+    "answers_false":["IPsec", "SSH (Secure Shell)", "SMIME (Secure/Multipurpose Internet Mail Extensions)"]
+},
+{
+    "type":"select_single",
+    "text":"Jestliže je zpráva podepsána a zašifrována, tak je zajištěna její",
+    "answers_correct":["důvěrnost a neodmítnutelnost"],
+    "answers_false":["důvěrnost a dostupnost", "integrita a neodmítnutelnost", "neodmítnutelnost a integrita"]
+},
+{
+    "type":"select_single",
+    "text":"Jaká je nejlepší obrana před interními útoky?",
+    "answers_correct":["pečlivý výběr zaměstnanců a jejich hodnocení v průběhu zaměstnaneckého poměru"],
+    "answers_false":["dvoufaktorová autentizace", "statická IP adresa", "bezpečnostní osvěta"]
+},
+{
+    "type":"select_single",
+    "text":"Jako opatření před útoky vedenými po vnitřní síti by měla organizace nasadit?",
+    "answers_correct":["IPS (Intrusion Prevention Systems, systém prevence útoků)"],
+    "answers_false":["statické IP adresy", "2FA (dvou faktorová autentizace)", "firewall"]
+},
+{
+    "type":"select_single",
+    "text":"Jaký útok znesnadňují silná tj., dlouhá a komplexní hesla?",
+    "answers_correct":["brute force attack (útok hrubou silou)"],
+    "answers_false":["man in the middle attack (ovládání komunikačního zařízení mezi počítači)", "replay attack (útok přehráním)", "side channel attack (útok postranním kanálem)"]
+},
+{
+    "type":"select_single",
+    "text":"Nejspolehlivější metoda, jak bezpečně odstranit data z harddisku, je",
+    "answers_correct":["provrtat jej na několika místech"],
+    "answers_false":["zformátovat jej", "přepsat jej náhodnými daty", "smazat všechny soubory"]
+},
+{
+    "type":"select_single",
+    "text":"Nový malware se šíří skrz e-mailovou přílohu ve formě obrázku s payloadem, co by měl manažer bezpečnosti udělat?",
+    "answers_correct":["blokovat obrázky v e-mailu"],
+    "answers_false":["blokovat přílohy e-mailu", "blokovat příchozí poštu z internetu", "blokovat odchozí poštu"]
+},
+{
+    "type":"select_single",
+    "text":"Phishing může být nejlépe eliminován",
+    "answers_correct":["bezpečnostní osvětou"],
+    "answers_false":["IPS (Intrusion Prevention Systems, systém prevence útoků)", "antivirem", "firewallem"]
+},
+{
+    "type":"select_single",
+    "text":"Ochrana proti piggybackingu/tailgatingu (nepozorované proniknutí do střežených prostor) by měla být založena na",
+    "answers_correct":["bezpečnostní osvětě"],
+    "answers_false":["biometrii", "ostraze na vstupu", "vlastnictví autentizačního předmětu"]
+},
+{
+    "type":"select_single",
+    "text":"Jaké opatření by mělo zabránit replay útoku (útok přehráním)?",
+    "answers_correct":["challenge response autentizace (výzva - odpověď)"],
+    "answers_false":["šifrovaná komunikace", "dlouhé komplexní heslo", "osolené hashe"]
+},
+{
+    "type":"select_single",
+    "text":"V organizaci jsou zaměstnanci, kteří díky přiděleným oprávněním mohou v rámci business continuity zastat jakoukoliv roli v určitém business procesu. Tím je na jednu stranu zajištěna zastupitelnost, ale na stranu druhou je zde narušen princip oddělení rolí, což může",
+    "answers_correct":["být zneužito ke spáchání interního podvodu"],
+    "answers_false":["vést k odmítnutí odpovědnosti", "způsobit zvýšení nákladů", "signalizovat špatné řízení lidských zdrojů"]
+},
+{
+    "type":"select_single",
+    "text":"Nejspolehlivější ochranou před snifováním (odposlouchání) sítě je",
+    "answers_correct":["šifrování"],
+    "answers_false":["2FA", "statická IP adresa", "striktní řízení přístupu"]
+},
+{
+    "type":"select_single",
+    "text":"Co je největším rizikem protokolu SNMPv2?",
+    "answers_correct":["přenos hesla v plain textu (otevřeném tvaru)"],
+    "answers_false":["možnost zahlcení sítě", "exfiltrace informací", "doručení payloadu (užitečného zatížení)"]
+},
+{
+    "type":"select_single",
+    "text":"Jaká je nejúčinnější ochrana před SQL injection?",
+    "answers_correct":["kontrola dat určených ke zpracování"],
+    "answers_false":["firewall", "antivirus", "kontrola dat zobrazovaných na výstupu"]
+},
+{
+    "type":"select_single",
+    "text":"Jaké je největší riziko při používání Wi-Fi sítě?",
+    "answers_correct":["falešný access point"],
+    "answers_false":["man in the middle (útok na uživatele a jeho bezpečnost)", "značná síla signálu", "nedostatečná kvalita šifrování"]
+},
+{
+    "type":"select_single",
+    "text":"Zranitelnosti XSS (Cross-Site Scripting) spočívá v",
+    "answers_correct":["neošetřeném vstupu"],
+    "answers_false":["slabé autentizaci", "absenci šifrování", "procházení adresářů"]
+},
+{
+    "type":"select_single",
+    "text":"Nejčastější zranitelnost webové aplikace spočívá",
+    "answers_correct":["v neošetřených vstupech"],
+    "answers_false":["v přetečení zásobníku", "ve špatném řízení sessions", "v nedostatečné autentizaci"]
+},
+{
+    "type":"select_single",
+    "text":"Jestliže je možné se dostat k datům jiného uživatele pouhou změnou parametru URL v adresním řádku prohlížeče, tak se jedná o",
+    "answers_correct":["špatnou autorizaci"],
+    "answers_false":["špatnou validaci dat", "XSS (Cross-site scripting)", "SQL injection"]
+},
+{
+    "type":"select_single",
+    "text":"Nejspolehlivější metoda jak snížit riziko krádeže informací ze strany zaměstnance je",
+    "answers_correct":["striktní řízení přístupu na principu need to know (jen co je potřebné vědět)"],
+    "answers_false":["časté zálohování", "opatření kontrolními součty", "dvoufaktorová autentizace"]
+},
+{
+    "type":"select_single",
+    "text":"Jakému incidentu by se měl manažer bezpečnosti věnovat jako prvnímu?",
+    "answers_correct":["na notebooku admina nalezen trojan"],
+    "answers_false":["na serveru neprobíhá auditing", "nebyl zrušen účet zaměstnance, který byl propuštěn", "do organizace bylo doručeno několik phishing emailů"]
+},
+{
+    "type":"select_single",
+    "text":"První krok při detekci bezpečnostního incidentu je",
+    "answers_correct":["ověřit, že se jedná opravdu o incident"],
+    "answers_false":["okamžitě informovat vlastníka informací", "prioritizace incidentu", "založení záznamu"]
+},
+{
+    "type":"select_single",
+    "text":"Při forenzní analýze pracovní stanice je třeba jako první",
+    "answers_correct":["odpojit stanici od sítě nebo ji připojit do karantenní VLANy"],
+    "answers_false":["pořídit dump paměti a image disku", "restartovat stanici", "vypnut stanici"]
+},
+{
+    "type":"select_single",
+    "text":"V okamžiku, kdy bylo zjištěno, že došlo k možnému zpřístupnění citlivých informací neautorizované osobě, tak je nutné",
+    "answers_correct":["informovat vlastníka"],
+    "answers_false":["prověřit rozsah informací, které byly zpřístupněny", "informovat dohledový orgán", "informovat management"]
+},
+{
+    "type":"select_single",
+    "text":"Co by mělo být provedeno neprodleně poté, co je incident potvrzen?",
+    "answers_correct":["evidence incidentu"],
+    "answers_false":["prioritizace incidentu", "reporting incidentu", "zjištění příčin incidentu"]
+},
+{
+    "type":"select_single",
+    "text":"Během incidentu je nejdůležitější, aby prověřená osoba",
+    "answers_correct":["používala předpřipravené šablony odpovědí"],
+    "answers_false":["na dotazy médií vůbec nereagovala", "odmítla jakoukoliv komunikaci s médii s ohledem na probíhající vyšetřování", "sama kontaktovala média a poskytla stručné informace"]
+},
+{
+    "type":"select_single",
+    "text":"Co by měl udělat manažer bezpečnosti jako první, když business hlásí problémy krátce po nedávné instalaci security patchů (bezpečnostních záplat)?",
+    "answers_correct":["analyzovat příčinu problémů a případně zahájit rollback (vrácení zpět)"],
+    "answers_false":["okamžitě je odinstalovat", "kontaktovat výrobce", "odpojit systémy od sítě"]
+},
+{
+    "type":"select_single",
+    "text":"Jak často by se měl aktualizovat antivirus?",
+    "answers_correct":["denně"],
+    "answers_false":["ročně", "měsíčně", "týdně"]
+},
+{
+    "type":"select_single",
+    "text":"Pokud jde o strategii archivace dat, tak ze všeho nejdůležitější je zvážit",
+    "answers_correct":["legislativní požadavky"],
+    "answers_false":["zastarávání programů a médií", "strategii businessu", "kapacitu úložiště"]
+},
+{
+    "type":"select_single",
+    "text":"Pokud jde o archivaci dat, tak ze všeho nejdůležitější je zohlednit",
+    "answers_correct":["legislativní požadavky"],
+    "answers_false":["požadavky businessu", "kapacitu úložišt", "best practice"]
+},
+{
+    "type":"select_single",
+    "text":"Pokud jde o zálohování dat, tak ze všeho nejdůležitější je zohlednit",
+    "answers_correct":["jakou ztrátu dat je business ochoten tolerovat"],
+    "answers_false":["do kdy nejpozději musí být data obnovena", "legislativní požadavky", "strategii businessu"]
+},
+{
+    "type":"select_single",
+    "text":"Auditing",
+    "answers_correct":["zaznamenává události do logu"],
+    "answers_false":["zabraňuje neautorizovaným operacím", "přiděluje uživateli oprávnění", "je spuštěn po autentizaci"]
+},
+{
+    "type":"select_single",
+    "text":"Co je nejdůležitější při zavádění restriktivní politiky",
+    "answers_correct":["bezpečnostní osvěta"],
+    "answers_false":["zobrazit disclaimer (vyloučení zodpovědnosti) při přihlášení", "zavedení single sign-on", "výběr druhého faktoru"]
+},
+{
+    "type":"select_single",
+    "text":"Vícefaktorová autentizace je založena na",
+    "answers_correct":["něčem, co člověk má, co ví a čím je"],
+    "answers_false":["použití dvou hesel", "zadání jména a hesla", "otisku prstu a skenu duhovky"]
+},
+{
+    "type":"select_single",
+    "text":"Které z následujících hesel je silné?",
+    "answers_correct":["Kjdtc23."],
+    "answers_false":["P4\\$\\$w0rd", "123456789", "qwertyuiop"]
+},
+{
+    "type":"select_single",
+    "text":"Autorizace",
+    "answers_correct":["spočívá v přidělení oprávnění"],
+    "answers_false":["předchází autentizaci", "nachází se mezi identifikací a autentizací", "spočívá v ověření hesla"]
+},
+{
+    "type":"select_single",
+    "text":"Security baseline obsahuje",
+    "answers_correct":["popis minimální úrovně bezpečnosti"],
+    "answers_false":["seznam bezpečnostních opatření organizační povahy", "popis maximální úrovně přípustného rizika", "detailnější požadavky než jsou uvedeny ve standardu"]
+},
+{
+    "type":"select_single",
+    "text":"Když se plánuje DRP (disaster recovery plan - plán obnovy po havárii) pro případ živelné pohromy, tak ze všeho nejdůležitější je ochrana",
+    "answers_correct":["lidí"],
+    "answers_false":["kritické infrastruktury", "záložních médií", "kritických dat"]
+},
+{
+    "type":"select_single",
+    "text":"Co by mělo být uchováváno mimo prostory společnosti?",
+    "answers_correct":["vše výše uvedené"],
+    "answers_false":["zálohy dat", "BCP (Business Continuity plan)", "DRP (disaster recovery plan)"]
+},
+{
+    "type":"select_single",
+    "text":"Pro úspěšné otestování DRP (disaster recovery plan - plán obnovy po havárii) je třeba, aby",
+    "answers_correct":["byla zajištěna podpora managementu"],
+    "answers_false":["vybavení hot site (záložní prostory) bylo identické", "testování proběhlo o víkendu", "byl aktualizován seznam telefonních čísel"]
+},
+{
+    "type":"select_single",
+    "text":"Co lze považovat za nejspolehlivější biometrickou metodu?",
+    "answers_correct":["scan duhovky"],
+    "answers_false":["scan otisku prstu", "scan krevního řečiště", "vzorek hlasu"]
+},
+{
+    "type":"select_single",
+    "text":"Co je klíčové pro úspěšné zavedení biometrické autentizace do systému?",
+    "answers_correct":["souhlas uživatelů"],
+    "answers_false":["podpora managementu", "zkušenost IT pracovníků", "dostatečný rozpočet"]
+},
+{
+    "type":"select_single",
+    "text":"Botnet je síť počítačů",
+    "answers_correct":["složených ze zombie"],
+    "answers_false":["používaných v průmyslu 4.0", "používaných v rámci RPA", "sloužících k distribuci patchů"]
+},
+{
+    "type":"select_single",
+    "text":"Dostupnost systému může být nejlépe zajištěna",
+    "answers_correct":["GEO clusterem"],
+    "answers_false":["zálohováním", "redundancí všech komponent v rámci datového centra", "replikací dat"]
+},
+{
+    "type":"select_single",
+    "text":"Pokud jde o přístupy externistů, tak ze všeho nejdůležitější je",
+    "answers_correct":["nastavit datum expirace jejich účtu"],
+    "answers_false":["nechat je podepsat, že byli seznámeni s politikami", "aby pro přístup používali 2FA (dvou faktorovou autentizaci)", "instruovat jejich nadřízené o povinnosti hlásit změny"]
+},
+{
+    "type":"select_single",
+    "text":"Organizace se rozhodla umístit svoji webovou aplikaci k poskytovateli hostingu, co je v tomto případě z pohledu manažera bezpečnosti nejdůležitější?",
+    "answers_correct":["aby ve smlouvě byl požadavek na zajištění souladu s bezpečnostní politikou společnosti"],
+    "answers_false":["uzavření NDA (Non-Disclosure Agreement – dohoda o mlčenlivosti) a SLA (Service-level agreement - dohodu o úrovni služeb).", "aby byly pravidelně prováděny penetrační testy této webové aplikace", "aby byl proveden bezpečnostní audit"]
+},
+{
+    "type":"select_single",
+    "text":"Efektivní IPS (Intrusion Prevention Systems - systém prevence průniku) vyžaduje především kvalitní",
+    "answers_correct":["ladění"],
+    "answers_false":["patchování (záplatování)", "šifrování", "podepisování"]
+},
+{
+    "type":"select_single",
+    "text":"Který z následujících plánů by měl obsahovat postup, jak reagovat na incident?",
+    "answers_correct":["IRP (incident response plan - plán reakce na incidenty)"],
+    "answers_false":["DRP (Disaster Recovery Plan - Plán obnovy po havárii)", "BCP (Business Continuity Plan - Plán kontinuity podnikání)", "vše výše uvedené"]
+},
+{
+    "type":"select_single",
+    "text":"Jakým způsobem bývají nejčastěji prolomena hesla uživatelů sloužících k přihlášení do nejrůznějších webových služeb?",
+    "answers_correct":["zkopírováním obsahu databáze a lámáním hashů proti slovníku již uniklých hesel"],
+    "answers_false":["prostým zkoušením hesel vůči autentizační autoritě", "zkopírováním obsahu databáze a lámáním hashů hesel hrubou silou", "zkopírováním obsahu databáze a lámáním hashů hesel s využitím rainbow tables"]
+},
+{
+    "type":"select_single",
+    "text":"Logování můžeme označit jako opatření spadající do kategorie",
+    "answers_correct":["detekce"],
+    "answers_false":["prevence", "reakce", "obnova"]
+},
+{
+    "type":"select_single",
+    "text":"Malvertising je technika",
+    "answers_correct":["spočívající v umístění škodlivého kódu do reklamního banneru"],
+    "answers_false":["kterou lze odhalit penetračním testem", "spočívající v zabezpečení webového obsahu", "kterou lze odhalit vulnerability skenem"]
+},
+{
+    "type":"select_single",
+    "text":"Neodmítnutelnost může být nejlépe zajištěna",
+    "answers_correct":["elektronickým podpisem"],
+    "answers_false":["logováním", "kryptografickým hashem HMAC", "silným heslem"]
+},
+{
+    "type":"select_single",
+    "text":"Jak zabránit neautorizovanému požadavku na nastavení nového hesla?",
+    "answers_correct":["zpětným voláním na uložené číslo"],
+    "answers_false":["položením kontrolní otázky", "kontrolou čísla volajícího", "požadavkem na sdělení části hesla"]
+},
+{
+    "type":"select_single",
+    "text":"K zajištění důvěrnosti a neodmítnutelnosti odesílané zprávy je nutné",
+    "answers_correct":["zašifrovat symetrický klíč veřejným klíčem příjemce a hash privátním klíčem odesílatele"],
+    "answers_false":["zašifrovat symetrický klíč privátním klíčem příjemce a hash veřejným klíčem odesílatele", "zašifrovat symetrický klíč veřejným klíčem odesílatele a hash privátním klíčem příjemce", "zašifrovat symetrický klíč privátním klíčem odesílatele a hash veřejným klíčem příjemce"]
+},
+{
+    "type":"select_single",
+    "text":"Při použití asymetrické kryptografie je nejdůležitější, aby A. měl podepisující subjekt zařízení, na kterém probíhá podepisování plně pod kontrolou",
+    "answers_correct":[""],
+    "answers_false":["měl podepisující subjekt certifikát vydaný důvěryhodnou CA", "byla délka privátního klíče minimálně 4096 bitů", "byl použit algoritmus RSA"]
+},
+{
+    "type":"select_single",
+    "text":"Webová stránka opatřená certifikátem a ikonkou zámečku značí, že",
+    "answers_correct":["komunikace s webem je šifrovaná"],
+    "answers_false":["web je důvěryhodný", "komunikace s webem je bezpečná", "vše výše uvedené"]
+},
+{
+    "type":"select_single",
+    "text":"Steganografie oproti šifrování",
+    "answers_correct":["zastírá skutečnost, že je přenášena tajná zpráva"],
+    "answers_false":["požaduje kratší délku klíče", "není náchylná vůči sniffingu (odposlouchávání počítačů v lokální síti)", "je nákladnější na provoz"]
+},
+{
+    "type":"select_single",
+    "text":"Vulnerability sken by měl identifikovat",
+    "answers_correct":["chybějící aktualizace"],
+    "answers_false":["zranitelnosti nultého dne", "malware", "chyby v návrhu aplikace"]
+},
+{
+    "type":"select_single",
+    "text":"Pro vzdálený přístup je nejvhodnější zavést",
+    "answers_correct":["2FA (dvou faktorová autentizace)"],
+    "answers_false":["kontrolu MAC adresy", "kontrolu IP adresy", "IDS (Intrusion Detection Systém)"]
+},
+{
+    "type":"select_single",
+    "text":"Watering hole je technika",
+    "answers_correct":["spočívající v umístění malware na hodně navštěvovaný web"],
+    "answers_false":["vedení výslechu, která je zakázána ve většině zemí", "umožňující po částech vynést z organizace citlivé informace", "chlazení procesorů"]
+},
+{
+    "type":"select_single",
+    "text":"Jaká je nevýhoda zip a dalších archivů chráněných heslem?",
+    "answers_correct":["mohou být dešifrovány"],
+    "answers_false":["mohou být umístěny do karantény", "používají slabý šifrovací algoritmus", "mohou být poškozeny při přenosu"]
+},
+{
+    "type":"select_single",
+    "text":"Který z následujících bezpečnostních dokumentů není závazný?",
+    "answers_correct":["bezpečnostní příručka"],
+    "answers_false":["bezpečnostní politika", "bezpečnostní standard", "bezpečnostní baseline"]
+},
+{
+    "type":"select_single",
+    "text":"Který z dokumentů se nejméně často mění?",
+    "answers_correct":[""],
+    "answers_false":["bezpečnostní politika", "bezpečnostní standard", "bezpečnostní baseline", "bezpečnostní příručka"]
+},
+{
+    "type":"select_single",
+    "text":"Který z dokumentů se mění nejčastěji?",
+    "answers_correct":["hardening serveru"],
+    "answers_false":["politika autentizace", "politika zálohování", "politika klasifikace informací"]
+},
+{
+    "type":"select_single",
+    "text":"Nejdůležitější součástí prohlášení o ochraně osobních údajů je,",
+    "answers_correct":["jak je s daty nakládáno"],
+    "answers_false":["jak jsou data šifrována", "jak je k datům řízen přístup", "jak jsou data zálohována"]
+},
+{
+    "type":"select_single",
+    "text":"Co by mělo nejvíce přesvědčit vrcholový management k rozhodnutí investovat do řízení informační bezpečnosti?",
+    "answers_correct":["ochrana aktiv"],
+    "answers_false":["redukce nákladů", "shoda s legislativními požadavky", "zvýšení zisku"]
+},
+{
+    "type":"select_single",
+    "text":"Investice do bezpečnostních opatření by měly vycházet z",
+    "answers_correct":["cílů businessu a měly by je podporovat"],
+    "answers_false":["best practice v daném odvětví", "minulých zkušeností v dané organizaci", "stávajících opatření"]
+},
+{
+    "type":"select_single",
+    "text":"Kdo by měl financovat zavedení bezpečnostních technologií?",
+    "answers_correct":["manažer IT"],
+    "answers_false":["manažer bezpečnosti", "data protection officer (pověřence pro ochranu osobních údajů", "compliance manažer (manažer shody)"]
+},
+{
+    "type":"select_single",
+    "text":"Kdo je odpovědný za správnou klasifikaci informací?",
+    "answers_correct":["vlastník dat"],
+    "answers_false":["manažer bezpečnosti", "správce dat", "uživatel"]
+},
+{
+    "type":"select_single",
+    "text":"Kdo by měl provést klasifikaci informací uložených v hlavní knize?",
+    "answers_correct":["finanční manažer"],
+    "answers_false":["manažer bezpečnosti", "manažer IT", "HR manažer"]
+},
+{
+    "type":"select_single",
+    "text":"Bezpečnostní osvěta pro zaměstnance společnosti by měla obsahovat",
+    "answers_correct":["návod jak vytvářet bezpečná hesla"],
+    "answers_false":["návod jak provádět vulnerability scan (sken zranitelnosti)", "návod jak provést penetrační test", "návod jak provést analýzu rizik"]
+},
+{
+    "type":"select_single",
+    "text":"Cílem bezpečnostní osvěty je",
+    "answers_correct":["změnit chování zaměstnanců"],
+    "answers_false":["vystrašit zaměstnance", "seznámit zaměstnance s reálnými hrozbami", "seznámit zaměstnance s platnými politikami"]
+},
+{
+    "type":"select_single",
+    "text":"Kdo by měl schválit plán řízení informační bezpečnosti?",
+    "answers_correct":["vrcholový management"],
+    "answers_false":["manažer bezpečnosti", "CIO ((Chief Information Officer) - vedoucí oddělení IT)", "audit"]
+},
+{
+    "type":"select_single",
+    "text":"Co musí být uvedeno v politice informační bezpečnosti?",
+    "answers_correct":["role a odpovědnosti jednotlivých osob"],
+    "answers_false":["proč se organizace rozhodla politiku vydat", "odkaz na standardy a směrnice", "konkrétní bezpečnostní opatření, která musí být přijata"]
+},
+{
+    "type":"select_single",
+    "text":"Pro úspěšné prosazení programu informační bezpečnosti je ze všeho nejdůležitější",
+    "answers_correct":["podpora vrcholového managementu"],
+    "answers_false":["pozitivní business case (projektový záměr)", "bezpečnostní osvěta", "analýza rizik"]
+},
+{
+    "type":"select_single",
+    "text":"Efektivní fungování programu informační bezpečnosti závisí především na",
+    "answers_correct":["všech zaměstnancích"],
+    "answers_false":["vrcholovém managementu", "manažeru bezpečnosti", "auditu"]
+},
+{
+    "type":"select_single",
+    "text":"První krok při vytváření programu řízení informační bezpečnosti je",
+    "answers_correct":["ujasnit si, že organizace chápe účel tohoto programu"],
+    "answers_false":["identifkace business rizik", "přidělit odpovědnosti za realizaci jednotlivých kroků", "provést GAP analýzu (analýzu tržních mezer)"]
+},
+{
+    "type":"select_single",
+    "text":"Co je charakteristické pro centrální řízení informační bezpečnosti?",
+    "answers_correct":["větší dodržování politik"],
+    "answers_false":["lepší soulad s cíli businessu", "větší náklady", "rychlejší reakce na požadavky"]
+},
+{
+    "type":"select_single",
+    "text":"Kdo nese konečnou odpovědnost za bezpečnost organizace",
+    "answers_correct":["vrcholový management"],
+    "answers_false":["manažer bezpečnosti", "každý zaměstnanec", "manažer IT"]
+},
+{
+    "type":"select_single",
+    "text":"V rámci řízení bezpečnosti je třeba nejprve sepsat",
+    "answers_correct":["bezpečnostní strategii"],
+    "answers_false":["bezpečnostní politiku", "bezpečnostní standard", "baseline (směrný plán)"]
+},
+{
+    "type":"select_single",
+    "text":"Který z požadavků na bezpečnost má nejnižší prioritu?",
+    "answers_correct":["technický"],
+    "answers_false":["business", "regulatorní", "GDPR"]
+},
+{
+    "type":"select_single",
+    "text":"Když je aktuální business cíl v rozporu se stávajícím standardem nebo politikou, tak je nutné",
+    "answers_correct":["schválit odchylku od politiky nebo standardu"],
+    "answers_false":["změnit politiku či standard", "změnit business cíl", "provést rizikovou analýzu"]
+},
+{
+    "type":"select_single",
+    "text":"Kdo je odpovědný za nastavení práv k business datům?",
+    "answers_correct":["vlastník dat"],
+    "answers_false":["administrátor systému", "manažer bezpečnosti", "CIO ((Chief Information Officer) - vedoucí oddělení IT)"]
+},
+{
+    "type":"select_single",
+    "text":"U kritických business aplikací by měl být přístup každého uživatele schválen",
+    "answers_correct":["vlastníkem dat"],
+    "answers_false":["manažerem bezpečnosti", "HR manažerem", "IT manažerem"]
+},
+{
+    "type":"select_single",
+    "text":"Co je nejdůležitější uvést do bezpečnostního standardu?",
+    "answers_correct":["datum poslední revize"],
+    "answers_false":["jméno vlastníka dokumentu", "datum vydání", "počet stran"]
+},
+{
+    "type":"select_single",
+    "text":"Bezpečnostní standard by měl obsahovat",
+    "answers_correct":["jasné a konkrétní parametry"],
+    "answers_false":["zdůvodnění, proč se společnost rozhodla jej zavést", "business cíle společnosti", "jak nakonfigurovat bezpečnostní subsystém"]
+},
+{
+    "type":"select_single",
+    "text":"Strategie informační bezpečnosti by měla být založena na snaze",
+    "answers_correct":["zvládat rizika, která by mohla ohrozit business cíle"],
+    "answers_false":["eliminovat všechna rizika", "implementovat opatření dle best practice", "implementovat opatření uvedená v ISO 2700x"]
+},
+{
+    "type":"select_single",
+    "text":"Co je nejdůležitější při návrhu strategie informační bezpečnosti?",
+    "answers_correct":["porozumět business cílům"],
+    "answers_false":["alokovat dostatek prostředků na bezpečnost", "podpora vrcholového managementu", "znalost IT"]
+},
+{
+    "type":"select_single",
+    "text":"Co je nejdůležitější uvést do strategického plánu informační bezpečnosti a čím by měl manažer bezpečnosti začít?",
+    "answers_correct":["popisem stávajícího a cílového stavu"],
+    "answers_false":["harmonogramem", "seznamem zdrojů", "uvedením nákladů na zdroje"]
+},
+{
+    "type":"select_single",
+    "text":"Čemu především by se měl věnovat řídící výbor?",
+    "answers_correct":["prioritizaci projektů informační bezpečnosti"],
+    "answers_false":["výběru vhodných zaměstnanců na pozici bezpečnostních specialistů", "schvalování přístupů do informačních systémů", "obsahu školení zvyšujícího bezpečnostní povědomí"]
+},
+{
+    "type":"select_single",
+    "text":"Při provádění penetračních testů je ze všeho nejdůležitější",
+    "answers_correct":["definovat jasný rozsah (scope)"],
+    "answers_false":["dát vědět IT", "nasadit IPS", "sepsat použitý SW"]
+},
+{
+    "type":"select_single",
+    "text":"Program informační bezpečnosti by se měl opírat především o výsledky",
+    "answers_correct":["analýzy rizik"],
+    "answers_false":["penetračních testů", "skenování zranitelností", "configuration review (prověrka konfigurace)"]
+},
+{
+    "type":"select_single",
+    "text":"Jaká technika je nejvhodnější pro identifikaci zranitelností ve webové aplikaci?",
+    "answers_correct":["penetrační test"],
+    "answers_false":["prověrka konfigurace", "sken zranitelností", "analýza rizik"]
+},
+{
+    "type":"select_single",
+    "text":"Co nejlépe prověří bezpečnost systému před útoky z internetu?",
+    "answers_correct":["penetrační testy"],
+    "answers_false":["sken zranitelností", "analýza rizik", "prověrka konfigurace"]
+},
+{
+    "type":"select_single",
+    "text":"Jak prověřit, že je systém nakonfigurován v rozporu se standardem?",
+    "answers_correct":["prověrka konfigurace"],
+    "answers_false":["sken zranitelností", "penetrační testy", "analýza rizik"]
+},
+{
+    "type":"select_single",
+    "text":"Jaká technika je použitelná pro identifikaci scházejících bezpečnostních opatření",
+    "answers_correct":["GAP analýza (analýza tržních mezer)"],
+    "answers_false":["riziková analýza", "BIA analýza (Business Impact Analysis – analýza dopadů)", "cost benefit analýza"]
+},
+{
+    "type":"select_single",
+    "text":"Jaký je nejbezpečnější způsob předání prvotního hesla uživateli?",
+    "answers_correct":["zasláním náhodného hesla jako SMS a požadovat okamžitou změnu"],
+    "answers_false":["nadiktovat po telefonu a požadovat okamžitou změnu", "nastavit stejné heslo jako username a požadovat okamžitou změnu", "nastavit prázdné heslo a požadovat okamžitou změnu"]
+},
+{
+    "type":"select_single",
+    "text":"Jaký je nejbezpečnější způsob předání prvotního hesla",
+    "answers_correct":["jiným kanálem"],
+    "answers_false":["e-mailem", "po telefonu", "poštou"]
+},
+{
+    "type":"select_single",
+    "text":"Organizace v rámci snížení nákladů zavedla flexible workspace, v němž pracuje několik desítek zaměstnanců, kteří se moc neznají, jak v takovém případě zabránit neautorizovanému požadavku na nastavení nového hesla?",
+    "answers_correct":["zpětným voláním na mobilní telefon"],
+    "answers_false":["kontrolou logů", "nastavením kontrolní otázky", "zpětným voláním na pevnou linku"]
+}
+]

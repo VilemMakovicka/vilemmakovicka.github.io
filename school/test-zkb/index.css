@@ -1,0 +1,322 @@
+:root {
+    /* body */
+    --body-background: #0f0f0f;
+    /* control base */
+    --button-color: #818181;
+    --button-background: #242424;
+    --button-border: #333333;
+    --button-shadow: #000000;
+    /* control hover */
+    --button-hover-color: #c7c7c7;
+    --button-hover-background: #242424;
+    --button-hover-border: #1e1e1e;
+    --button-hover-shadow: #000000;
+    /* control selected*/
+    --button-selected-color: #c7c7c7;
+    --button-selected-background: #4b4b4b;
+    --button-selected-border: #1e1e1e;
+    --button-selected-shadow: #000000;
+    /* container */
+    --container-background: #131313;
+    --container-border: #1e1e1e;
+    --container-shadow: #000000;
+}
+
+
+
+button{
+    /*primary*/
+    color:            var(--button-color);
+    background-color: var(--button-background);
+    /* outer */
+    margin:           0.5em;
+    box-shadow:       0px 0px 5px var(--button-shadow);
+    /* border */
+    border-radius:    1em;
+    border-color:     var(--button-border);
+    border-width:     1px;
+    border-style:     solid;
+    /* text */
+    font-family:      Consolas, monaco, monospace;
+    font-size:        11px;
+    font-style:       normal;
+    font-variant:     normal;
+    font-weight:      700;
+    text-align:       center;
+    line-height:      26.4px;
+    /* misc */
+    cursor:           pointer;
+    transition-duration: 200ms;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.questionContainer{
+    border-radius: 1em;
+    border-color: var(--container-border);
+    border-width: 1px;
+    border-style: solid;
+    
+    margin: auto;
+    margin-bottom: 17.5vh;
+    padding: 2em;
+
+    box-shadow: 0px 0px 5px var(--container-shadow);
+    text-align: justify;
+    background-color: var(--container-background);
+    max-width: 800px;
+
+    font-family: Consolas, monaco, monospace;
+    /*font-size: 24px;*/
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1.3;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+
+    hyphens: auto;
+    overflow-wrap: break-word;
+}
+.questionInputTextBox{
+    border-radius: 1em;
+    border-color: var(--button-border);
+    border-width: 1px;
+    border-style: solid;
+
+    text-align: center;
+    font-family: Consolas, monaco, monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+
+    box-shadow: 0px 0px 5px var(--button-shadow);
+}
+.option_button{
+    border-color:     var(--button-border);
+    color:            var(--button-color);
+    background-color: var(--button-background);
+    box-shadow:       0px 0px 5px var(--button-shadow);
+}
+.option_button.selected{
+    border-color:     var(--button-selected-border);
+    color:            var(--button-selected-color);
+    background-color: var(--button-selected-background);
+    box-shadow:       0px 0px 5px var(--button-selected-shadow);
+}
+.option_button:hover{
+    padding: 5px;
+
+    border-color:     var(--button-hover-border);
+    color:            var(--button-hover-color);
+    background-color: var(--button-hover-background);
+    box-shadow:       0px 0px 5px var(--button-hover-shadow);
+}
+.questionCheckButton{
+    border-radius: 1em;
+    border-color: var(--button-selected-border);
+    border-width: 1px;
+    border-style: solid;
+
+    text-align: center;
+    font-family: Consolas, monaco, monospace;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+
+    box-shadow: 0px 0px 5px var(--button-selected-shadow);
+    background-color: #7373ff;
+    margin: 0.5em;
+
+    transition-duration: 200ms;
+}
+.questionCheckButton:hover{
+    background-color: #9f9ff1;
+}
+.questionAnswerButton{
+    color: var(--button-selected-color);
+    background-color: var(--button-selected-background);
+
+    border-radius: 1em;
+    border-color: var(--button-selected-border);
+    border-width: 1px;
+    border-style: solid;    
+
+    text-align: center;
+    font-family: Consolas, monaco, monospace;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+
+    box-shadow: 0px 0px 5px var(--button-selected-shadow);
+    margin: 0.5em;
+
+    transition-duration: 200ms;
+}
+.questionAnswerButton:hover{
+    background-color: #e4dfd3;
+}
+.nextQuestionButton{
+    border-radius: 1em;
+    border-color: var(--button-selected-border);
+    border-width: 1px;
+    border-style: solid;
+
+    color: var(--button-selected-color);
+
+    text-align: center;
+    font-family: Consolas, monaco, monospace;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+
+    box-shadow: 0px 0px 5px var(--button-selected-shadow);
+    background-color: var(--button-selected-background);
+    margin: 0.5em;
+
+    transition-duration: 200ms;
+}
+.nextQuestionButton:hover{
+    background-color: #e4dfd3;
+}
+body{
+    width: 100%;
+    margin: 0;
+    background-color: var(--body-background);
+
+    height: 100vh;
+    align-content: center;
+}
+.questionStatisticBar{
+    width: 100%;
+    height: 5px;
+    /*display: block;*/
+    background-color: var(--button-background);
+
+    border-radius: 1em;
+    border-color: var(--button-hover-border);
+    border-width: 1px;
+    border-style: solid;
+
+    display: flex;
+    overflow: hidden;
+}
+.questionStatisticBar-completed{
+    display: block;
+    background: green;
+    height: 100%;
+}
+.questionStatisticBar-uncovered{
+    display: block;
+    background: rgb(80, 80, 80);
+    height: 100%;
+}
+.questionStatisticBar-wrong{
+    display: block;
+    background: rgb(128, 0, 0);
+    height: 100%;
+}
+
+.filterContainer{
+    border-radius: 1em;
+    border-color: var(--container-border);
+    border-width: 1px;
+    border-style: solid;
+    
+    margin: auto;
+    margin-top: 1em;
+    padding: 0.2em;
+
+    box-shadow: 0px 0px 5px var(--container-shadow);
+    background-color: var(--container-background);
+    max-width: 800px;
+
+    font-family: Consolas, monaco, monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1.3;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+h3{
+    color: var(--button-color);
+}
+.filterButton{
+    border-color: var(--button-border);
+    color: var(--button-color);
+    background-color: var(--button-background);
+    box-shadow: 0px 0px 5px var(--button-shadow);
+
+    border-radius: 1em;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    font-family: Consolas, monaco, monospace;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    margin: 0.5em;
+    transition-duration: 200ms;
+}
+
+.filterButton:hover{
+    border-color:     var(--button-hover-border);
+    color:            var(--button-hover-color);
+    background-color: var(--button-hover-background);
+    box-shadow:       0px 0px 5px var(--button-hover-shadow);
+}
+
+.activeFilterButton{
+    border-color:     var(--button-selected-border);
+    color:            var(--button-selected-color);
+    background-color: var(--button-selected-background);
+    box-shadow:       0px 0px 5px var(--button-selected-shadow);
+}
+
+.activeFilterButton:hover{
+    border-color:     var(--button-hover-border);
+    color:            var(--button-hover-color);
+    background-color: var(--button-hover-background);
+    box-shadow:       0px 0px 5px var(--button-hover-shadow);
+}
+
+.filterHeader{
+    font-family: Consolas, monaco, monospace;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0.5em;
+    margin-bottom: 0;
+    color: var(--button-color);
+}
+
+@media only screen and (max-width: 800px) {
+    .questionContainer{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .filterContainer{
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}

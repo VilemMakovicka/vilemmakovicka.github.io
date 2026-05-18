@@ -1,0 +1,21 @@
+:root {
+    /* control base */
+    --button-color: #a3a3a3;
+    --button-background: #f7f7f7;
+    --button-border: #bebebe;
+    --button-shadow: #e2e2e2;
+    /* control hover */
+    --button-hover-color: #363636;
+    --button-hover-background: #f7f7f7;
+    --button-hover-border: #bebebe;
+    --button-hover-shadow: #e2e2e2;
+    /* control selected*/
+    --button-selected-color: #363636;
+    --button-selected-background: #cccccc;
+    --button-selected-border: #bebebe;
+    --button-selected-shadow: #e2e2e2;
+    /* container */
+    --container-background: #ffffff;
+    --container-border: #e8e8e8;
+    --container-shadow: #e2e2e2;
+}

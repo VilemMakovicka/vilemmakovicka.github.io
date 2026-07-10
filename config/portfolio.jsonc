@@ -1,0 +1,22 @@
+{
+    "projects": [
+        {
+            "name":  "Artificial snow",
+            "link":  " a",
+            "image": "/project_sources/images/audiosteamingwebsite.001.png",
+            "description": "Puzzle exploration game with horror elements. Currently under development. Made in Unity."
+        },
+        {
+            "name":  "Wooden snow",
+            "link":  "https://vilem-makovicka.itch.io/wooden-snow",
+            "image": "/project_sources/images/audiosteamingwebsite.001.png",
+            "description": "Horror game. Late 90s artstyle. Full version under development. Made in Unity."
+        },
+        {
+            "name":  "Tracksap",
+            "link":  "https://github.com/VilemMakovicka/Audio-streaming-website",
+            "image": "/project_sources/images/audiosteamingwebsite.001.png",
+            "description": "An audio streaming website. University project."
+        }
+    ]
+}

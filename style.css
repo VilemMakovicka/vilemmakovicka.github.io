@@ -8,6 +8,7 @@
     --nav-height: 30px;
     --nav-a-width: 200px;
     --font-size: 15px;
+    --h1-size: 30px;
 }
 
 @font-face {
@@ -16,36 +17,52 @@
 }
 
 *{
+    font-family: JetBrains Mono;
+    font-size: var(--font-size);
+    color:        var(--color-primary);
+    border-color: var(--color-primary);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: var(--font-size);
-    color: var(--color-primary);
-    font-family: JetBrains Mono;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+p{
+    text-align: justify;
 }
 
 body{
     background-color: var(--color-neutral);
+    background: paint(wavy-pattern);
+
+    border-style: solid;
+    border-width: var(--border-width);
+    border-color: var(--color-primary);
+    min-height: 100vh;
+
 }
 
 nav{
-    outline-width: var(--border-width);
-    outline-color: var(--color-primary);
-    outline-style: solid;
+    border-width: 0 0 var(--border-width) 0;
+    border-color: var(--color-primary);
+    border-style: solid;
     color: var(--color-primary);
     background-color: var(--color-neutral);
     height: var(--nav-height);
-}
-
-#nav-left{
-    height: 100%;
     display: flex;
     align-content: center;
     text-align: center;
-    color: var(--color-color);
+    justify-content: center;
 }
 
-#nav-left>a{
+nav>a{
     outline-width: var(--border-width);
     outline-color: var(--color-primary);
     background-color: var(--color-neutral);
@@ -54,12 +71,11 @@ nav{
     text-align: center;
     height: 100%;
     align-content: center;
-    color: var(--color-color);
     text-decoration: none;
     transition: 300ms;
 }
 
-#nav-left>img{
+nav>img{
     aspect-ratio: 1;
     outline-width: var(--border-width);
     outline-color: var(--color-primary);
@@ -67,7 +83,7 @@ nav{
     outline-style: solid;
 }
 
-#nav-left>a:hover{
+nav>a:hover{
     background-color: var(--color-primary);
     color: var(--color-neutral);
     text-decoration: underline;
@@ -76,25 +92,32 @@ nav{
 main{
     margin: var(--nav-height) auto 0 auto;
     max-width: 900px;
+    padding: 0 var(--nav-height) 0 var(--nav-height);
+    overflow: hidden;
 }
 
 #main-profile{
     width: var(--nav-a-width);
-    outline-width: var(--border-width);
-    outline-color: var(--color-primary);
+    border-width: var(--border-width);
+    border-color: var(--color-primary);
     background-color: var(--color-neutral);
-    outline-style: solid;
+    border-style: solid;
     background: linear-gradient(var(--color-neutral), var(--color-primary));
 }
 
-#footer{
+#links{
     position: fixed;
     bottom: 0;
     left: 0;
+    padding: 0 0 var(--border-width) calc(var(--border-width) * 2);
     display: flex;
+    width: 100%;
+    border-width: 0 0 var(--border-width) 0;
+    border-color: var(--color-primary);
+    border-style: solid;
 }
 
-#footer>a{
+#links>a{
     color: var(--color-neutral);
     background-color: var(--color-primary);
     text-decoration: none;
@@ -103,7 +126,7 @@ main{
     transition: 300ms;
 }
 
-#footer>a:hover{
+#links>a:hover{
     background-color: var(--color-neutral);
     color: var(--color-primary);
     text-decoration: underline;
@@ -112,4 +135,59 @@ main{
 #main-head{
     display: flex;
     gap: var(--nav-height);
+}
+
+#projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0px;
+}
+
+#projects>div{
+    cursor: pointer;
+    aspect-ratio: 4 / 3;
+    image-rendering: optimizeSpeed;
+    background-size: cover;
+    padding: 3px 9px;
+    position: relative;
+    border-width: var(--border-width);
+    border-color: var(--color-primary);
+    border-style: solid;
+
+    margin-right: calc(0px - var(--border-width));
+    margin-top: calc(0px - var(--border-width));
+}
+
+#projects *{
+    z-index: 2;
+    position: inherit;
+}
+
+#projects>div>a{
+    opacity: 0;
+    transition: 300ms;
+}
+
+#projects>div:hover a{
+    opacity: 1;
+}
+
+#projects>div::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: var(--color-neutral);
+    opacity: 0.7;
+    
+    z-index: 1;
+
+    transition: 300ms;
+}
+#projects>div:hover::before{
+    background: var(--color-neutral);
+    opacity: 0.9;
 }

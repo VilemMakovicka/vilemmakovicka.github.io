@@ -1,0 +1,10 @@
+[
+    {
+        "label": "index",
+        "link":  "index.html"
+    },
+    {
+        "label": "portfolio", 
+        "link":  "portfolio.html"
+    }
+]

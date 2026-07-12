@@ -2,7 +2,6 @@ const components = ['header', 'links', 'portfolio_main'];
 const folderPath = './components';
 
 async function loadComponents() {
-    // Find any element with a 'data-component' attribute
     const elements = document.querySelectorAll('[data-component]');
     
     for (const element of elements) {

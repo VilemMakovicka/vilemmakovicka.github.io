@@ -1,22 +1,22 @@
 {
     "projects": [
         {
-            "name":  "Artificial snow",
-            "link":  " a",
-            "image": "/project_sources/images/audiosteamingwebsite.001.png",
-            "description": "Puzzle exploration game with horror elements. Currently under development. Made in Unity."
-        },
-        {
-            "name":  "Wooden snow",
-            "link":  "https://vilem-makovicka.itch.io/wooden-snow",
-            "image": "/project_sources/images/audiosteamingwebsite.001.png",
-            "description": "Horror game. Late 90s artstyle. Full version under development. Made in Unity."
-        },
-        {
             "name":  "Tracksap",
             "link":  "https://github.com/VilemMakovicka/Audio-streaming-website",
-            "image": "/project_sources/images/audiosteamingwebsite.001.png",
+            "image": "/portfolio_src/tracksap.thumbnail.png",
             "description": "An audio streaming website. University project."
+        },
+        {
+            "name":  "Dungeon crawler",
+            "link":  "https://github.com/VilemMakovicka/Dungeon-crawler",
+            "image": "/portfolio_src/forlorn.thumbnail.png",
+            "description": "A terminal-based dungeon crawler written in c++. University project."
+        },
+        {
+            "name":  "Windows Forms Tetris",
+            "link":  "https://github.com/VilemMakovicka/winforms-tetris",
+            "image": "/portfolio_src/tetris.thumbnail.png",
+            "description": "High school project."
         }
     ]
 }

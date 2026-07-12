@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 :root{
     --color-primary: rgb(182, 210, 194);
@@ -9,11 +9,6 @@
     --nav-a-width: 200px;
     --font-size: 15px;
     --h1-size: 30px;
-}
-
-@font-face {
-  font-family: JetBrains Mono;
-  src: url(cv_src/JetBrainsMono-VariableFont_wght.ttf);
 }
 
 *{
@@ -146,7 +141,7 @@ main{
 #projects>div{
     cursor: pointer;
     aspect-ratio: 4 / 3;
-    image-rendering: optimizeSpeed;
+    image-rendering: auto;
     background-size: cover;
     padding: 3px 9px;
     position: relative;

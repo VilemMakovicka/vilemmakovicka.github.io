@@ -10,13 +10,26 @@
             "name":  "Dungeon crawler",
             "link":  "https://github.com/VilemMakovicka/Dungeon-crawler",
             "image": "/portfolio_src/forlorn.thumbnail.png",
-            "description": "A terminal-based dungeon crawler written in c++. University project."
+            "description": "A terminal-based dungeon crawler written in c++. Group university project."
         },
         {
             "name":  "Windows Forms Tetris",
             "link":  "https://github.com/VilemMakovicka/winforms-tetris",
             "image": "/portfolio_src/tetris.thumbnail.png",
-            "description": "High school project."
+            "description": "A high school project."
+        },
+        {
+            "name":  "Simple unity car controller",
+            "link":  "https://github.com/VilemMakovicka/unity-simple-car-controller",
+            "image": "/portfolio_src/carcontroller.thumbnail.png",
+            "description": "My attempt at making an easy-to-configure rigidbody-based car controller in unity. A personal coding adventure. "
+        }
+        ,
+        {
+            "name":  "2d World generator",
+            "link":  "https://github.com/VilemMakovicka/csharp-console-2d-world-generation",
+            "image": "/portfolio_src/worldgen.thumbnail.png",
+            "description": "An expermient with random noise generation for a 2d world. A personal coding adventure."
         }
     ]
 }

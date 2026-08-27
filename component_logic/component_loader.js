@@ -1,30 +1,27 @@
-const components = ['header', 'links', 'portfolio_main'];
-const folderPath = './components';
+const COMPONENTS = ['header', 'links', 'portfolio_main'];
+const FOLDER_PATH = './components';
 
 async function loadComponents() {
-    const elements = document.querySelectorAll('[data-component]');
+    const loaders = document.querySelectorAll('[data-component]');
     
-    for (const element of elements) {
-        const componentName = element.getAttribute('data-component');
+    for (const loader of loaders) {
+        const componentName = loader.getAttribute('data-component');
         
         try {
-            const response = await fetch(`./components/${componentName}.html`);
-            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-            const html = await response.text();
+            const templateResponse = await fetch(`./components/${componentName}.html`);
+            if (!templateResponse.ok) throw new Error(`HTTP error! status: ${templateResponse.status}`);
+            const templateContents = await templateResponse.text();
             
-            element.outerHTML = html;
+            loader.outerHTML = templateContents;
 
             const parser = new DOMParser();
-            const doc = parser.parseFromString(html, 'text/html');
-            const scripts = doc.querySelectorAll('script');
+            const doc = parser.parseFromString(templateContents, 'text/html');
+            const templateScripts = doc.querySelectorAll('script');
             
-            scripts.forEach(oldScript => {
+            templateScripts.forEach(oldScript => {
                 const newScript = document.createElement('script');
-                if (oldScript.src) {
-                    newScript.src = oldScript.src;
-                } else {
-                    newScript.textContent = oldScript.textContent;
-                }
+                if (oldScript.src) newScript.src = oldScript.src; 
+                else newScript.textContent = oldScript.textContent;
                 document.body.appendChild(newScript);
             });
 

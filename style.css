@@ -38,9 +38,9 @@ body{
     background-color: var(--color-neutral);
     background: paint(wavy-pattern);
 
-    border-style: solid;
+    /*border-style: solid;
     border-width: var(--border-width);
-    border-color: var(--color-primary);
+    border-color: var(--color-primary);*/
     min-height: 100vh;
 
 }

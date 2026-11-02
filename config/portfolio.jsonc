@@ -4,31 +4,43 @@
             "name":  "Tracksap",
             "link":  "https://github.com/VilemMakovicka/Audio-streaming-website",
             "image": "/portfolio_src/tracksap.thumbnail.webp",
-            "description": "An audio streaming website. University project."
+            "description": "University project - Audio streaming website.",
+            "tags": ["html", "python", "javascript"]
         },
         {
             "name":  "Dungeon crawler",
             "link":  "https://github.com/VilemMakovicka/Dungeon-crawler",
             "image": "/portfolio_src/forlorn.thumbnail.webp",
-            "description": "A terminal-based dungeon crawler written in c++. Group university project."
+            "description": "A terminal-based dungeon crawler written in C++. Group university project.",
+            "tags": ["c++"]
         },
         {
-            "name":  "Windows Forms Tetris",
+            "name":  "Tetris in Win. Forms",
             "link":  "https://github.com/VilemMakovicka/winforms-tetris",
             "image": "/portfolio_src/tetris.thumbnail.webp",
-            "description": "A high school project."
+            "description": "A high school project.",
+            "tags": ["c#"]
         },
         {
-            "name":  "Simple unity car controller",
+            "name":  "Simple Car Controller",
             "link":  "https://github.com/VilemMakovicka/unity-simple-car-controller",
             "image": "/portfolio_src/carcontroller.thumbnail.webp",
-            "description": "My attempt at making an easy-to-configure rigidbody-based car controller in unity. A personal coding adventure. "
+            "description": "My attempt at making an easy-to-configure rigidbody-based car controller in unity. A personal coding adventure. ",
+            "tags": ["unity", "c#"]
         },
         {
             "name":  "2d World generator",
             "link":  "https://github.com/VilemMakovicka/csharp-console-2d-world-generation",
             "image": "/portfolio_src/worldgen.thumbnail.webp",
-            "description": "An expermient with random noise generation for a 2d world. A personal coding adventure."
+            "description": "An expermient with random noise generation for a 2d world. A personal coding adventure.",
+            "tags": ["c#"]
+        },
+        {
+            "name":  "William's Voxel-Based Terrain",
+            "link":  "https://github.com/VilemMakovicka/William-s-Voxel-Based-Terrain",
+            "image": "/portfolio_src/wvbt.thumbnail.webp",
+            "description": "Unity Package - Terrain system for Unity engine using marching cubes. Made for effective workflow in my personal projects.",
+            "tags": ["unity", "c#"]
         }
     ]
 }
